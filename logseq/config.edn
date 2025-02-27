@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["hls__SIT215-Unit_Guide_1740374238106_0"]
 
  ;; Set flashcards interval.
  ;; Expected value:
