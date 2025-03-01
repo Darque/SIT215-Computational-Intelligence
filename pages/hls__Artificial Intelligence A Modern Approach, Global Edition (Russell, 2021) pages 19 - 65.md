@@ -355,8 +355,61 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 	  ls-type:: annotation
 	  id:: 67c26de3-4928-49d4-b8d0-4cef1f5da99a
 	  hl-color:: green
-- In the “laws of thought” approach to AI, the emphasis was on correct inferences.
+	- In the “laws of thought” approach to AI, the emphasis was on correct inferences.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: blue
+	  id:: 67c26e27-c78d-409f-9b84-7718655ed78e
+	  collapsed:: true
+		- Making correct inferences is sometimes *part* of being a rational agent, because one way to act rationally is to deduce that a given action is best and then to act on that conclusion.
+		  hl-page:: 4
+		  ls-type:: annotation
+		  id:: 67c279f5-562e-4b0f-821d-dc50ca572dd9
+		  hl-color:: yellow
+		- On the other hand, there are ways of acting rationally that cannot be said to involve inference. For example, recoiling from a hot stove is a reﬂex action that is usually more successful than a slower action taken after careful deliberation.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: yellow
+		  id:: 67c27a1c-773d-4333-ab58-5eddb23b5746
+	- All the skills needed for the Turing test also allow an agent to act rationally.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: blue
+	  id:: 67c27a3a-531f-4e50-9f8a-d52b61552a5e
+	  collapsed:: true
+		- Knowledge representation and reasoning enable agents to reach good decisions.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: yellow
+		  id:: 67c27a8e-7097-4d7c-8bf9-aaa1c6db3492
+		- We need to be able to generate comprehensible sentences in natural language to get by in a complex society.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: yellow
+		  id:: 67c27a9a-be71-43d8-bd66-6ffc66ac5863
+		- We need learning not only for erudition, but also because it improves our ability to generate effective behavior, especially in circumstances that are new.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: yellow
+		  id:: 67c27aa6-a46c-445a-b96b-fb445310f851
+- The rational-agent approach to AI has two advantages over the other approaches.
   ls-type:: annotation
   hl-page:: 4
   hl-color:: blue
-  id:: 67c26e27-c78d-409f-9b84-7718655ed78e
+  id:: 67c27aca-1ff2-48d2-ac1f-8e46f9b2f324
+	- **First**, it is more general than the “laws of thought” approach because correct inference is just one of several possible mechanisms for achieving rationality.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: yellow
+	  id:: 67c27aeb-8a17-4102-88ee-b4f46f7b5375
+	- Second, it is more amenable to scientiﬁc development. The standard of rationality is mathematically well deﬁned and completely general.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: yellow
+	  id:: 67c27b14-242b-4308-b116-57f8e215299c
+		- ==_However it does create duplicitous answers that lack a cohesive outcome, it is therefore fractuous. This lack of directionality and discipline towards a perceived goal, reduces certainty of action that is core to having agency. A rational agent is by definition, not an agent, but constructs the environment of potentiality. The agent must collapse the possible into the certainty of outcome based on the desirable objective. Agent as defined here exposes the agent of Chaos as it fails to act and therefore fails to exclude an infinitely large scope of undesirable outcome._==
+- We can often work back from this speciﬁcation to derive agent designs that provably achieve it—something that is largely impossible if the goal is to imitate human behavior or thought processes.
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 67c27bd6-9bc3-42b1-8330-9b5d45e3dbad
