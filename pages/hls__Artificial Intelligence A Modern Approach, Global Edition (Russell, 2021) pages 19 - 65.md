@@ -408,8 +408,38 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 	  hl-color:: yellow
 	  id:: 67c27b14-242b-4308-b116-57f8e215299c
 		- ==_However it does create duplicitous answers that lack a cohesive outcome, it is therefore fractuous. This lack of directionality and discipline towards a perceived goal, reduces certainty of action that is core to having agency. A rational agent is by definition, not an agent, but constructs the environment of potentiality. The agent must collapse the possible into the certainty of outcome based on the desirable objective. Agent as defined here exposes the agent of Chaos as it fails to act and therefore fails to exclude an infinitely large scope of undesirable outcome._==
-- We can often work back from this speciﬁcation to derive agent designs that provably achieve it—something that is largely impossible if the goal is to imitate human behavior or thought processes.
+	- We can often work back from this speciﬁcation to derive agent designs that provably achieve it—something that is largely impossible if the goal is to imitate human behavior or thought processes.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: yellow
+	  id:: 67c27bd6-9bc3-42b1-8330-9b5d45e3dbad
+- For these reasons, the rational-agent approach to AI has prevailed throughout most of the ﬁeld’s history.
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: blue
+  id:: 67c28e06-1f8a-4e61-b266-fdd43e6b4402
+	- In the early decades, rational agents were built on logical foundations and formed deﬁnite plans to achieve speciﬁc goals.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: yellow
+	  id:: 67c28e35-bfa2-48ab-90ee-f3a9476d1c91
+	- Later, methods based on probability theory and machine learning allowed the creation of agents that could make decisions under uncertainty to attain the best expected outcome.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: yellow
+	  id:: 67c28e46-3f56-4941-b271-3dbfe4889f10
+	- __In a nutshell, AI has focused on the study and construction of agents that *do the right thing*__. What counts as the right thing is deﬁned by the objective that we provide to the agent.
+	  hl-page:: 4
+	  ls-type:: annotation
+	  id:: 67c28e54-6a53-411d-a139-9a9fceb9d641
+	  hl-color:: yellow
+- This general paradigm is so pervasive that we might call it the **standard model.**
   ls-type:: annotation
   hl-page:: 4
   hl-color:: yellow
-  id:: 67c27bd6-9bc3-42b1-8330-9b5d45e3dbad
+  id:: 67c28ecf-0a41-4104-8c71-b6134fb74a4e
+- It prevails not only in AI, but also in control theory, where aStandard model controller minimizes a cost function; in operations research, where a policy maximizes a sum of rewards; in statistics, where a decision rule minimizes a loss function; and in economics, where a decision maker maximizes utility or some measure of social welfare.
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 67c28ef0-5048-4f82-981d-32729c61d73b
