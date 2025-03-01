@@ -440,8 +440,14 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 		  ls-type:: annotation
 		  id:: 67c28ef0-5048-4f82-981d-32729c61d73b
 		  hl-color:: yellow
-- We need to make one important reﬁnement to the standard model to account for the fact that perfect rationality—always taking the exactly optimal action—is not feasible in complex environments.
-  ls-type:: annotation
-  hl-page:: 4
-  hl-color:: blue
-  id:: 67c28fd2-9d32-46ca-9387-2efa73238c4a
+	- We need to make one important reﬁnement to the standard model to account for the fact that perfect rationality—always taking the exactly optimal action—is not feasible in complex environments. The computational demands are just too high. 
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: blue
+	  id:: 67c2f3a2-0a0e-45d1-bef1-0e48d9ec08a9
+	- Chapters 6 and 16 deal with the issue of **limited rationality**—acting appropriately when there is not enough time to do allLimited rationality the computations one might like. However, perfect rationality often remains a good starting point for theoretical analysis.
+	  ls-type:: annotation
+	  hl-page:: 4
+	  hl-color:: green
+	  id:: 67c2f3b5-c33a-448b-8a03-43881650d963
+	  hl-stamp:: 1740829625338
