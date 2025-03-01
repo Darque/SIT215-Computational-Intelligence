@@ -334,120 +334,146 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 		  hl-color:: blue
 		  id:: 67c26d68-947b-412d-862a-330144043dfb
 		  hl-stamp:: 1740795249341
-- 1.1.4 Acting rationally: The rational agent approach
-  ls-type:: annotation
-  hl-page:: 3
-  hl-color:: red
-  id:: 67c26d84-25e1-46f6-9e0c-3f1b013544fb
-	- An **agent** is just something that acts (agent comes from the Latin agere, to do).
+	- 1.1.4 Acting rationally: The rational agent approach
 	  ls-type:: annotation
 	  hl-page:: 3
-	  hl-color:: green
-	  id:: 67c26db2-377e-4f0c-a356-4b8210946856
+	  hl-color:: red
+	  id:: 67c26d84-25e1-46f6-9e0c-3f1b013544fb
 	  collapsed:: true
-		- Of course, all computer programs do something, but computer agents are expected to do more: operate autonomously, perceive their environment, persist over a prolonged time period, adapt to change, and create and pursue goals.
+		- An **agent** is just something that acts (agent comes from the Latin agere, to do).
+		  ls-type:: annotation
+		  hl-page:: 3
+		  hl-color:: green
+		  id:: 67c26db2-377e-4f0c-a356-4b8210946856
+		  collapsed:: true
+			- Of course, all computer programs do something, but computer agents are expected to do more: operate autonomously, perceive their environment, persist over a prolonged time period, adapt to change, and create and pursue goals.
+			  hl-page:: 4
+			  ls-type:: annotation
+			  id:: 67c26dd3-465e-4abf-88fa-c1e516ee984c
+			  hl-color:: yellow
+		- A **rational agent** is one that acts so as to achieve the best outcome or, when there is uncertainty, the best expected outcome.
 		  hl-page:: 4
 		  ls-type:: annotation
-		  id:: 67c26dd3-465e-4abf-88fa-c1e516ee984c
-		  hl-color:: yellow
-	- A **rational agent** is one that acts so as to achieve the best outcome or, when there is uncertainty, the best expected outcome.
-	  hl-page:: 4
-	  ls-type:: annotation
-	  id:: 67c26de3-4928-49d4-b8d0-4cef1f5da99a
-	  hl-color:: green
-	- In the “laws of thought” approach to AI, the emphasis was on correct inferences.
+		  id:: 67c26de3-4928-49d4-b8d0-4cef1f5da99a
+		  hl-color:: green
+		- In the “laws of thought” approach to AI, the emphasis was on correct inferences.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: blue
+		  id:: 67c26e27-c78d-409f-9b84-7718655ed78e
+		  collapsed:: true
+			- Making correct inferences is sometimes *part* of being a rational agent, because one way to act rationally is to deduce that a given action is best and then to act on that conclusion.
+			  hl-page:: 4
+			  ls-type:: annotation
+			  id:: 67c279f5-562e-4b0f-821d-dc50ca572dd9
+			  hl-color:: yellow
+			- On the other hand, there are ways of acting rationally that cannot be said to involve inference. For example, recoiling from a hot stove is a reﬂex action that is usually more successful than a slower action taken after careful deliberation.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c27a1c-773d-4333-ab58-5eddb23b5746
+		- All the skills needed for the Turing test also allow an agent to act rationally.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: blue
+		  id:: 67c27a3a-531f-4e50-9f8a-d52b61552a5e
+		  collapsed:: true
+			- Knowledge representation and reasoning enable agents to reach good decisions.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c27a8e-7097-4d7c-8bf9-aaa1c6db3492
+			- We need to be able to generate comprehensible sentences in natural language to get by in a complex society.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c27a9a-be71-43d8-bd66-6ffc66ac5863
+			- We need learning not only for erudition, but also because it improves our ability to generate effective behavior, especially in circumstances that are new.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c27aa6-a46c-445a-b96b-fb445310f851
+		- The rational-agent approach to AI has two advantages over the other approaches.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: blue
+		  id:: 67c27aca-1ff2-48d2-ac1f-8e46f9b2f324
+		  collapsed:: true
+			- **First**, it is more general than the “laws of thought” approach because correct inference is just one of several possible mechanisms for achieving rationality.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c27aeb-8a17-4102-88ee-b4f46f7b5375
+			- Second, it is more amenable to scientiﬁc development. The standard of rationality is mathematically well deﬁned and completely general.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c27b14-242b-4308-b116-57f8e215299c
+				- ==_However it does create duplicitous answers that lack a cohesive outcome, it is therefore fractuous. This lack of directionality and discipline towards a perceived goal, reduces certainty of action that is core to having agency. A rational agent is by definition, not an agent, but constructs the environment of potentiality. The agent must collapse the possible into the certainty of outcome based on the desirable objective. Agent as defined here exposes the agent of Chaos as it fails to act and therefore fails to exclude an infinitely large scope of undesirable outcome._==
+			- We can often work back from this speciﬁcation to derive agent designs that provably achieve it—something that is largely impossible if the goal is to imitate human behavior or thought processes.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c27bd6-9bc3-42b1-8330-9b5d45e3dbad
+		- For these reasons, the rational-agent approach to AI has prevailed throughout most of the ﬁeld’s history.
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: blue
+		  id:: 67c28e06-1f8a-4e61-b266-fdd43e6b4402
+		  collapsed:: true
+			- In the early decades, rational agents were built on logical foundations and formed deﬁnite plans to achieve speciﬁc goals.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c28e35-bfa2-48ab-90ee-f3a9476d1c91
+			- Later, methods based on probability theory and machine learning allowed the creation of agents that could make decisions under uncertainty to attain the best expected outcome.
+			  ls-type:: annotation
+			  hl-page:: 4
+			  hl-color:: yellow
+			  id:: 67c28e46-3f56-4941-b271-3dbfe4889f10
+			- __In a nutshell, AI has focused on the study and construction of agents that *do the right thing*__. What counts as the right thing is deﬁned by the objective that we provide to the agent.
+			  hl-page:: 4
+			  ls-type:: annotation
+			  id:: 67c28e54-6a53-411d-a139-9a9fceb9d641
+			  hl-color:: yellow
+			- This general paradigm is so pervasive that we might call it the **standard model.** It prevails not only in AI, but also in control theory, where a controller minimizes a cost function; in operations research, where a policy maximizes a sum of rewards; in statistics, where a decision rule minimizes a loss function; and in economics, where a decision maker maximizes utility or some measure of social welfare.
+			  hl-page:: 4
+			  ls-type:: annotation
+			  id:: 67c28ef0-5048-4f82-981d-32729c61d73b
+			  hl-color:: yellow
+		- We need to make one important reﬁnement to the standard model to account for the fact that perfect rationality—always taking the exactly optimal action—is not feasible in complex environments. The computational demands are just too high. 
+		  ls-type:: annotation
+		  hl-page:: 4
+		  hl-color:: blue
+		  id:: 67c2f3a2-0a0e-45d1-bef1-0e48d9ec08a9
+		- Chapters 6 and 16 deal with the issue of **limited rationality**—acting appropriately when there is not enough time to do all the computations one might like. However, perfect rationality often remains a good starting point for theoretical analysis.
+		  hl-stamp:: 1740829625338
+		  hl-page:: 4
+		  ls-type:: annotation
+		  id:: 67c2f3b5-c33a-448b-8a03-43881650d963
+		  hl-color:: green
+- 1.1.5 Beneﬁcial machines
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: red
+  id:: 67c2f3df-228a-4430-927f-661b676c4437
+	- The standard model has been a useful guide for AI research since its inception, but it is probably not the right model in the long run. 
 	  ls-type:: annotation
 	  hl-page:: 4
 	  hl-color:: blue
-	  id:: 67c26e27-c78d-409f-9b84-7718655ed78e
-	  collapsed:: true
-		- Making correct inferences is sometimes *part* of being a rational agent, because one way to act rationally is to deduce that a given action is best and then to act on that conclusion.
-		  hl-page:: 4
-		  ls-type:: annotation
-		  id:: 67c279f5-562e-4b0f-821d-dc50ca572dd9
-		  hl-color:: yellow
-		- On the other hand, there are ways of acting rationally that cannot be said to involve inference. For example, recoiling from a hot stove is a reﬂex action that is usually more successful than a slower action taken after careful deliberation.
+	  id:: 67c2f3f0-6e05-422c-ae7e-081df0c5157a
+		- The reason is that the standard model assumes that we will supply a fully speciﬁed objective to the machine.
 		  ls-type:: annotation
 		  hl-page:: 4
 		  hl-color:: yellow
-		  id:: 67c27a1c-773d-4333-ab58-5eddb23b5746
-	- All the skills needed for the Turing test also allow an agent to act rationally.
-	  ls-type:: annotation
-	  hl-page:: 4
-	  hl-color:: blue
-	  id:: 67c27a3a-531f-4e50-9f8a-d52b61552a5e
-	  collapsed:: true
-		- Knowledge representation and reasoning enable agents to reach good decisions.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c27a8e-7097-4d7c-8bf9-aaa1c6db3492
-		- We need to be able to generate comprehensible sentences in natural language to get by in a complex society.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c27a9a-be71-43d8-bd66-6ffc66ac5863
-		- We need learning not only for erudition, but also because it improves our ability to generate effective behavior, especially in circumstances that are new.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c27aa6-a46c-445a-b96b-fb445310f851
-	- The rational-agent approach to AI has two advantages over the other approaches.
-	  ls-type:: annotation
-	  hl-page:: 4
-	  hl-color:: blue
-	  id:: 67c27aca-1ff2-48d2-ac1f-8e46f9b2f324
-	  collapsed:: true
-		- **First**, it is more general than the “laws of thought” approach because correct inference is just one of several possible mechanisms for achieving rationality.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c27aeb-8a17-4102-88ee-b4f46f7b5375
-		- Second, it is more amenable to scientiﬁc development. The standard of rationality is mathematically well deﬁned and completely general.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c27b14-242b-4308-b116-57f8e215299c
-			- ==_However it does create duplicitous answers that lack a cohesive outcome, it is therefore fractuous. This lack of directionality and discipline towards a perceived goal, reduces certainty of action that is core to having agency. A rational agent is by definition, not an agent, but constructs the environment of potentiality. The agent must collapse the possible into the certainty of outcome based on the desirable objective. Agent as defined here exposes the agent of Chaos as it fails to act and therefore fails to exclude an infinitely large scope of undesirable outcome._==
-		- We can often work back from this speciﬁcation to derive agent designs that provably achieve it—something that is largely impossible if the goal is to imitate human behavior or thought processes.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c27bd6-9bc3-42b1-8330-9b5d45e3dbad
-	- For these reasons, the rational-agent approach to AI has prevailed throughout most of the ﬁeld’s history.
-	  ls-type:: annotation
-	  hl-page:: 4
-	  hl-color:: blue
-	  id:: 67c28e06-1f8a-4e61-b266-fdd43e6b4402
-	  collapsed:: true
-		- In the early decades, rational agents were built on logical foundations and formed deﬁnite plans to achieve speciﬁc goals.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c28e35-bfa2-48ab-90ee-f3a9476d1c91
-		- Later, methods based on probability theory and machine learning allowed the creation of agents that could make decisions under uncertainty to attain the best expected outcome.
-		  ls-type:: annotation
-		  hl-page:: 4
-		  hl-color:: yellow
-		  id:: 67c28e46-3f56-4941-b271-3dbfe4889f10
-		- __In a nutshell, AI has focused on the study and construction of agents that *do the right thing*__. What counts as the right thing is deﬁned by the objective that we provide to the agent.
-		  hl-page:: 4
-		  ls-type:: annotation
-		  id:: 67c28e54-6a53-411d-a139-9a9fceb9d641
-		  hl-color:: yellow
-		- This general paradigm is so pervasive that we might call it the **standard model.** It prevails not only in AI, but also in control theory, where a controller minimizes a cost function; in operations research, where a policy maximizes a sum of rewards; in statistics, where a decision rule minimizes a loss function; and in economics, where a decision maker maximizes utility or some measure of social welfare.
-		  hl-page:: 4
-		  ls-type:: annotation
-		  id:: 67c28ef0-5048-4f82-981d-32729c61d73b
-		  hl-color:: yellow
-	- We need to make one important reﬁnement to the standard model to account for the fact that perfect rationality—always taking the exactly optimal action—is not feasible in complex environments. The computational demands are just too high. 
-	  ls-type:: annotation
-	  hl-page:: 4
-	  hl-color:: blue
-	  id:: 67c2f3a2-0a0e-45d1-bef1-0e48d9ec08a9
-	- Chapters 6 and 16 deal with the issue of **limited rationality**—acting appropriately when there is not enough time to do allLimited rationality the computations one might like. However, perfect rationality often remains a good starting point for theoretical analysis.
-	  ls-type:: annotation
-	  hl-page:: 4
-	  hl-color:: green
-	  id:: 67c2f3b5-c33a-448b-8a03-43881650d963
-	  hl-stamp:: 1740829625338
+		  id:: 67c2f3f6-e55e-412e-9943-a0b0e49a7c0f
+- For an artiﬁcially deﬁned task such as chess or shortest-path computation, the task comes with an objective built in—so the standard model is applicable
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: blue
+  id:: 67c2f40b-f0a5-4783-adec-2bcd464b565c
+- As we move into the real world, however, it becomes more and more difﬁcult to specify the objective completely and
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 67c2f420-23fd-40f5-9574-3f44f5eafa80
