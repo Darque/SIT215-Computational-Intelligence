@@ -811,40 +811,385 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 			  hl-page:: 8
 			  hl-color:: yellow
 			  id:: 67c3dda4-e2e5-4de7-9b5e-28396952b57c
-- 1.2.2 Mathematics
-  ls-type:: annotation
-  hl-page:: 8
-  hl-color:: red
-  id:: 67c3ddb4-e43e-49b7-a0fe-8f23a90f5afd
-	- Philosophers staked out some of the fundamental ideas of AI, but the leap to a formal science required the mathematization of logic and probability and the introduction of a new branch of mathematics: computation.
+	- 1.2.2 Mathematics
 	  ls-type:: annotation
 	  hl-page:: 8
-	  hl-color:: blue
-	  id:: 67c3de63-a1c6-4724-80c6-4ccf5a899968
-	- The idea of **formal logic** can be traced back to the philosophers of ancient Greece, India, and China, but its mathematical development really began with the work of [[George Boole]] (1815–1864), who worked out the details of propositional, or Boolean, logic (Boole, 1847).
-	  hl-page:: 8
-	  ls-type:: annotation
-	  id:: 67c3de87-d37c-4443-9c58-82c58c41dbab
-	  hl-color:: green
-	- In 1879, [[Gottlob Frege]] (1848–1925) extended Boole’s logic to include objects and relations, creating the ﬁrst-order logic that is used today.[^5]
-	  hl-page:: 8
-	  ls-type:: annotation
-	  id:: 67c3dedc-3265-4c66-85b7-ede4899ab774
-	  hl-color:: blue
-	  hl-stamp:: 1740889859943
+	  hl-color:: red
+	  id:: 67c3ddb4-e43e-49b7-a0fe-8f23a90f5afd
 	  collapsed:: true
-		- In addition to its central role in the early period of AI research, ﬁrst-order logic motivated the work of G¨odel and Turing that underpinned computation itself, as we explain below.
+		- Philosophers staked out some of the fundamental ideas of AI, but the leap to a formal science required the mathematization of logic and probability and the introduction of a new branch of mathematics: computation.
 		  ls-type:: annotation
 		  hl-page:: 8
-		  hl-color:: yellow
-		  id:: 67c3df64-49cf-4557-9cdb-7284b832c1d0
-		- hl-page:: 8
+		  hl-color:: blue
+		  id:: 67c3de63-a1c6-4724-80c6-4ccf5a899968
+		- The idea of **formal logic** can be traced back to the philosophers of ancient Greece, India, and China, but its mathematical development really began with the work of [[George Boole]] (1815–1864), who worked out the details of propositional, or Boolean, logic (Boole, 1847).
+		  hl-page:: 8
 		  ls-type:: annotation
-		  id:: 67c3deed-8775-449b-be58-2478d86c621e
-		  hl-color:: purple
-		  [^5]:Frege’s proposed notation for ﬁrst-order logic—an arcane combination of textual and geometric features— never became popular.
-- The theory of **probability** can be seen as generalizing logic to situations with uncertainProbability information—a consideration of great importance for AI.
+		  id:: 67c3de87-d37c-4443-9c58-82c58c41dbab
+		  hl-color:: green
+		- In 1879, [[Gottlob Frege]] (1848–1925) extended Boole’s logic to include objects and relations, creating the ﬁrst-order logic that is used today.[^5]
+		  hl-page:: 8
+		  ls-type:: annotation
+		  id:: 67c3dedc-3265-4c66-85b7-ede4899ab774
+		  hl-color:: blue
+		  hl-stamp:: 1740889859943
+		  collapsed:: true
+			- In addition to its central role in the early period of AI research, ﬁrst-order logic motivated the work of G¨odel and Turing that underpinned computation itself, as we explain below.
+			  ls-type:: annotation
+			  hl-page:: 8
+			  hl-color:: yellow
+			  id:: 67c3df64-49cf-4557-9cdb-7284b832c1d0
+			- hl-page:: 8
+			  ls-type:: annotation
+			  id:: 67c3deed-8775-449b-be58-2478d86c621e
+			  hl-color:: purple
+			  [^5]:Frege’s proposed notation for ﬁrst-order logic—an arcane combination of textual and geometric features— never became popular.
+		- The theory of **probability** can be seen as generalizing logic to situations with uncertainProbability information—a consideration of great importance for AI.
+		  ls-type:: annotation
+		  hl-page:: 8
+		  hl-color:: green
+		  id:: 67c3df9b-d66b-458b-b313-d29c9baca24b
+		- [[Gerolamo Cardano]] (1501–1576) ﬁrst framed the idea of probability, describing it in terms of the possible outcomes of gambling events.
+		  ls-type:: annotation
+		  hl-page:: 8
+		  hl-color:: blue
+		  id:: 67c3faf6-879d-4fae-8f6e-5d059e76228f
+		- In 1654, [[Blaise Pascal]] (1623–1662), in a letter to [[Pierre Fermat]] (1601–1665), showed how to predict the future of an unﬁnished gambling game and assign average payoffs to the gamblers.
+		  hl-page:: 8
+		  ls-type:: annotation
+		  id:: 67c3fb14-d264-49dc-8a35-1d3ce53637b9
+		  hl-color:: blue
+		  collapsed:: true
+			- Probability quickly became an invaluable part of the quantitative sciences, helping to deal with uncertain measurements and incomplete theories
+			  ls-type:: annotation
+			  hl-page:: 8
+			  hl-color:: yellow
+			  id:: 67c3fb2c-ac24-4b7d-bae9-71864b2ddf17
+		- [[Jacob Bernoulli]] (1654–1705, uncle of Daniel), [[Pierre Laplace]] (1749–1827), and others advanced the theory and introduced new statistical methods.
+		  hl-page:: 8
+		  ls-type:: annotation
+		  id:: 67c3fb40-ba99-48e1-b10b-98fb304587c3
+		  hl-color:: blue
+		- [[Thomas Bayes]] (1702–1761) proposed a rule for updating probabilities in the light of new evidence; Bayes’ rule is a crucial tool for AI systems.
+		  ls-type:: annotation
+		  hl-page:: 8
+		  hl-color:: blue
+		  id:: 67c3fb61-442b-48b0-892f-ad6889c0ae9b
+		- The formalization of probability, combined with the availability of data, led to the emergence of **statistics** as a ﬁeld.
+		  ls-type:: annotation
+		  hl-page:: 8
+		  hl-color:: green
+		  id:: 67c3fb76-d64e-4a0b-840c-00971e483897
+		  hl-stamp:: 1740897146790
+		- One of the ﬁrst uses was [[John Graunt]]’s analysis of London census data in 1662.
+		  hl-page:: 8
+		  ls-type:: annotation
+		  id:: 67c3fb92-aefb-45e1-aa6d-190505479087
+		  hl-color:: blue
+		- [[Ronald Fisher]] is considered the ﬁrst modern statistician (Fisher,1922).
+		  ls-type:: annotation
+		  hl-page:: 9
+		  hl-color:: blue
+		  id:: 67c3fbc7-4299-4bb6-9e33-4e2de590a486
+		  collapsed:: true
+			- He brought together the ideas of probability, experiment design, analysis of data, and computing—in 1919, he insisted that he couldn’t do his work without a mechanical calculator called the MILLIONAIRE (the ﬁrst calculator that could do multiplication), even though the cost of the calculator was more than his annual salary (Ross, 2012).
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c3fbdf-497c-4c66-a4b2-6884c3fb050f
+		- The history of computation is as old as the history of numbers, but the ﬁrst nontrivial algorithm is thought to be Euclid’s **algorithm** for computing greatest common divisors.
+		  ls-type:: annotation
+		  hl-page:: 9
+		  hl-color:: green
+		  id:: 67c3fbf3-2240-443b-ab30-871e8c1292a9
+		- The word algorithm comes from [[Muhammad ibn Musa al-Khwarizmi]], a 9th century mathematician, whose writings also introduced Arabic numerals and algebra to Europe.
+		  hl-page:: 9
+		  ls-type:: annotation
+		  id:: 67c3fc0b-de53-4270-95d6-670f188d4e3f
+		  hl-color:: blue
+		  collapsed:: true
+			- Boole and others discussed algorithms for logical deduction, and, by the late 19th century, efforts were under way to formalize general mathematical reasoning as logical deduction.
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c3fc21-1be3-4ab2-930c-776c4d4cf583
+		- [[Kurt Gödel]] (1906–1978) showed that there exists an effective procedure to prove any true statement in the ﬁrst-order logic of Frege and Russell, but that ﬁrst-order logic could not capture the principle of mathematical induction needed to characterize the natural numbers. In1931, Gödel showed that limits on deduction do exist.
+		  ls-type:: annotation
+		  hl-page:: 9
+		  hl-color:: blue
+		  id:: 67c3fca2-987a-435a-8ca7-e6812e2b9551
+		  hl-stamp:: 1740897480720
+		- His **incompleteness theorem** showed that in any formal theory as strong as Peano arithmetic (the elementary theory of natural numbers), there are necessarily true statements that have no proof within the theory.
+		  hl-page:: 9
+		  ls-type:: annotation
+		  id:: 67c3fce7-bc9e-4202-862d-4da832751bd6
+		  hl-color:: green
+		- This fundamental result can also be interpreted as showing that some functions on the integers cannot be represented by an algorithm—that is, they cannot be computed.
+		  ls-type:: annotation
+		  hl-page:: 9
+		  hl-color:: blue
+		  id:: 67c3fd17-fc44-494a-9060-9825dd997c6a
+		- This motivated [[Alan Turing]] (1912–1954) to try to characterize exactly which functions are **computable**—capable of being computed by an effective procedure.
+		  ls-type:: annotation
+		  hl-page:: 9
+		  hl-color:: green
+		  id:: 67c400e1-2f9a-4e50-b2b2-b354b1f98722
+		  collapsed:: true
+			- The Church–Turing thesis proposes to identify the general notion of computability with functions computed by a Turing machine (Turing, 1936). Turing also showed that there were some functions that no Turing machine can compute. 
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c4011b-b9a7-4d67-8ea1-1328d5c90a02
+			- For example, no machine can tell *in general* whether a given program will return an answer on a given input or run forever.
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c40125-8104-414b-b666-5964fdea2155
+		- Although computability is important to an understanding of computation, the notion of **tractability** has had an even greater impact on AI.
+		  ls-type:: annotation
+		  hl-page:: 9
+		  hl-color:: green
+		  id:: 67c40155-883b-4e94-a2ba-8dced243d3a3
+		  collapsed:: true
+			- Roughly speaking, a problem is called intractable if the time required to solve instances of the problem grows exponentially with the size of the instances.
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c4016e-7828-4241-baae-960ae44c34e8
+			- The distinction between polynomial and exponential growth in complexity was ﬁrst emphasized in the mid-1960s (Cobham, 1964; Edmonds, 1965).
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c4018b-d50a-45bc-8d78-ced39ee802fb
+			- It is important because exponential growth means that even moderately large instances cannot be solved in any reasonable time.
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c4019c-5274-4cfd-b323-9ead9909b271
+		- The theory of **NP-completeness**, pioneered by Cook (1971) and Karp (1972), provides a basis for analyzing the tractability of problems: any problem class to which the class of NPcomplete problems can be reduced is likely to be intractable. (Although it has not been proved that NP-complete problems are necessarily intractable, most theoreticians believe it.)
+		  hl-page:: 9
+		  ls-type:: annotation
+		  id:: 67c401ba-44b5-498a-843b-49e9f6f2b748
+		  hl-color:: blue
+		  collapsed:: true
+			- These results contrast with the optimism with which the popular press greeted the ﬁrst computers—“Electronic Super-Brains” that were “Faster than Einstein!” 
+			  ls-type:: annotation
+			  hl-page:: 9
+			  hl-color:: yellow
+			  id:: 67c401d9-2795-4a0c-888f-83182a4f3724
+			- Despite the increasing speed of computers, careful use of resources and necessary imperfection will characterize intelligent systems. Put crudely, the world is an *extremely* large problem instance!
+			  hl-page:: 9
+			  ls-type:: annotation
+			  id:: 67c401e8-4318-4498-b8fa-b10fbd31a4ba
+			  hl-color:: yellow
+	- 1.2.3 Economics
+	  ls-type:: annotation
+	  hl-page:: 9
+	  hl-color:: red
+	  id:: 67c401fc-8b36-4c23-bc15-ea3622b4a494
+	  collapsed:: true
+		- The science of economics originated in 1776, when Adam Smith (1723–1790) published *An Inquiry into the Nature and Causes of the Wealth of Nations*.
+		  ls-type:: annotation
+		  hl-page:: 10
+		  hl-color:: blue
+		  id:: 67c40215-9175-4f0d-bbcd-d071f47bae13
+		  collapsed:: true
+			- Smith proposed to analyze economies as consisting of many individual agents attending to their own interests
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c40247-d299-4906-9dc9-cccdb96ccd7e
+			- Smith was not, however, advocating ﬁnancial greed as a moral position: his earlier (1759) book *The Theory of Moral Sentiments* begins by pointing out that concern for the well-being of others is an essential component of the interests of every individual.
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c4026d-e12a-48cf-91db-eb086a2af6c6
+		- Most people think of economics as being about money, and indeed the ﬁrst mathematical analysis of decisions under uncertainty, the maximum-expected-value formula of Arnauld(1662), dealt with the monetary value of bets
+		  ls-type:: annotation
+		  hl-page:: 10
+		  hl-color:: blue
+		  id:: 67c4029a-9a38-4071-8633-74a5088a197f
+		- [[Daniel Bernoulli]] (1738) noticed that this formula didn’t seem to work well for larger amounts of money, such as investments in maritime trading expeditions.
+		  ls-type:: annotation
+		  hl-page:: 10
+		  hl-color:: blue
+		  id:: 67c402af-82f7-48c6-89e9-0e1c74d07b38
+		  hl-stamp:: 1740898995625
+		  collapsed:: true
+			- He proposed instead a principle based on maximization of expected utility, and explained human investment choices by proposing that the marginal utility of an additional quantity of money diminished as one acquired more money.
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c402cc-b798-4fef-8194-eba8427dbd2d
+		- [[Léon Walras]] (pronounced “Valrasse”) (1834–1910) gave utility theory a more general foundation in terms of preferences between gambles on any outcomes (not just monetary outcomes).
+		  hl-page:: 10
+		  ls-type:: annotation
+		  id:: 67c40301-4e67-4d03-b71f-df4349ad5f1d
+		  hl-color:: blue
+		  collapsed:: true
+			- The theory was improved by Ramsey (1931) and later by [[John von Neumann]] and [[Oskar Morgenstern]] in their book The Theory of Games and Economic Behavior (1944).
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c4038b-efcb-4be0-9133-cb47a6bb260b
+			- Economics is no longer the study of money; rather it is the study of desires and preferences.
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c403bc-5d3d-4034-a8f8-24360bb21378
+		- **Decision theory**, which combines probability theory with utility theory, provides a formal and complete framework for individual decisions (economic or otherwise) made under uncertainty—that is, in cases where probabilistic descriptions appropriately capture the decision maker’s environment.
+		  hl-page:: 10
+		  ls-type:: annotation
+		  id:: 67c403f3-c3df-4bda-83ea-3352fbfd5ac3
+		  hl-color:: green
+		  collapsed:: true
+			- This is suitable for “large” economies where each agent need pay no attention to the actions of other agents as individuals
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c4041a-69e0-4936-b7e8-f7bb586c26a2
+			- For “small” economies, the situation is much more like a **game**: the actions of one player can signiﬁcantly affect the utility of another (either positively or negatively).
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c40431-5cf1-4676-8a09-a5af9dc2055c
+			  hl-stamp:: 1740899448523
+		- [[John von Neumann]] and [[Oskar Morgenstern]]’s development of **game theory** (see also Luce and Raiffa, 1957) included the surprising result that, for some games, a rational agent should adopt policies that are (or least appear to be) randomized.
+		  hl-page:: 10
+		  ls-type:: annotation
+		  id:: 67c40444-d00f-4b27-8b4b-8e295967da45
+		  hl-color:: green
+		  hl-stamp:: 1740899443569
+		  collapsed:: true
+			- Unlike decision theory, game theory does not offer an unambiguous prescription for selecting actions.
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c4049d-1585-4c27-be81-3bee7d56be58
+		- In AI, decisions involving multiple agents are studied under the heading of **multiagent systems** (Chapter 17).
+		  ls-type:: annotation
+		  hl-page:: 10
+		  hl-color:: green
+		  id:: 67c404a9-d386-4ced-aaa2-b1874f63da36
+		- Economists, with some exceptions, did not address the third question listed above: how to make rational decisions when payoffs from actions are not immediate but instead result from several actions taken *in sequence*.
+		  ls-type:: annotation
+		  hl-page:: 10
+		  hl-color:: blue
+		  id:: 67c404c7-bd34-4d6c-a9fd-c7b13d84de4d
+		- This topic was pursued in the ﬁeld of **operations research**, which emerged in World War II from efforts in Britain to optimize radar installations, and later found innumerable civilian applications.
+		  hl-stamp:: 1740899556482
+		  hl-page:: 10
+		  ls-type:: annotation
+		  id:: 67c404de-9f1d-440d-9052-d4c75fbb3bf8
+		  hl-color:: green
+		- The work of [[Richard Bellman]] (1957) formalized a class of sequential decision problems called **Markov decision processes**, which we study in Chapter 16 and, under the heading of **reinforcement learning**, in Chapter 23.
+		  hl-page:: 10
+		  ls-type:: annotation
+		  id:: 67c40515-71d1-4860-b59c-6b9f419cf8f3
+		  hl-color:: green
+		- Work in economics and operations research has contributed much to our notion of rational agents, yet for many years AI research developed along entirely separate paths.
+		  ls-type:: annotation
+		  hl-page:: 10
+		  hl-color:: blue
+		  id:: 67c4053d-2504-4d50-ace7-6ced9125b48f
+		  collapsed:: true
+			- One reason was the apparent complexity of making rational decisions.
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c40563-a635-4b18-91dc-a14ee5042be4
+		- The pioneering AI researcher [[Herbert Simon]] (1916–2001) won the Nobel Prize in economics in 1978 for his early work showing that models based on **satisﬁcing**—making decisions that are “good enough,” rather than laboriously calculating an optimal decision—gave a better description of actual human behavior (Simon, 1947).
+		  hl-page:: 10
+		  ls-type:: annotation
+		  id:: 67c40574-5a9f-4685-bd28-77b3ca1829c2
+		  hl-color:: blue
+		  collapsed:: true
+			- Since the 1990s, there has been a resurgence of interest in decisiontheoretic techniques for AI.
+			  ls-type:: annotation
+			  hl-page:: 10
+			  hl-color:: yellow
+			  id:: 67c405a3-3123-4f8e-b76c-b0c1eea67475
+- 1.2.4 Neuroscience
   ls-type:: annotation
-  hl-page:: 8
+  hl-page:: 11
+  hl-color:: red
+  id:: 67c405b4-577c-4366-b309-e105b27e6d86
+	- **Neuroscience** is the study of the nervous system, particularly the brain.
+	  ls-type:: annotation
+	  hl-page:: 11
+	  hl-color:: blue
+	  id:: 67c405d0-d9a0-4116-bf57-52b06eedaa69
+	  collapsed:: true
+		- Although the exact way in which the brain enables thought is one of the great mysteries of science, the fact that it does enable thought has been appreciated for thousands of years because of the evidence that strong blows to the head can lead to mental incapacitation.
+		  ls-type:: annotation
+		  hl-page:: 11
+		  hl-color:: yellow
+		  id:: 67c405ee-56a8-4688-8e07-e177560d06a2
+		- It has also long been known that human brains are somehow different; in about 335 BCE Aristotle wrote, “Of all the animals, man has the largest brain in proportion to his size.”[^6]
+		  hl-page:: 11
+		  ls-type:: annotation
+		  id:: 67c4060a-96e3-448b-842f-e70eec1b03d4
+		  hl-color:: yellow
+			- hl-page:: 11
+			  ls-type:: annotation
+			  id:: 67c4061d-0a3f-4172-a933-1252532db234
+			  hl-color:: purple
+			  [^6]:It has since been discovered that the tree shrew and some bird species exceed the human brain/body ratio.
+		- Still, it was not until the middle of the18th century that the brain was widely recognized as the seat of consciousness. Before then, candidate locations included the heart and the spleen.
+		  ls-type:: annotation
+		  hl-page:: 11
+		  hl-color:: yellow
+		  id:: 67c4063b-a24e-4b4e-96e7-a304311412e4
+	- [[Paul Broca]]’s (1824–1880) investigation of aphasia (speech deﬁcit) in brain-damaged patients in 1861 initiated the study of the brain’s functional organization by identifying a localized area in the left hemisphere—now called Broca’s area—that is responsible for speech production.[^7]
+	  hl-page:: 11
+	  ls-type:: annotation
+	  id:: 67c40659-3bd3-45e2-ab74-92cb6a998783
+	  hl-color:: blue
+	  collapsed:: true
+		- hl-page:: 11
+		  ls-type:: annotation
+		  id:: 67c40673-419a-422e-906b-4e64b2ced7ba
+		  hl-color:: purple
+		  [^7]:Many cite Alexander Hood (1824) as a possible prior source.
+	- By that time, it was known that the brain consisted largely of nerve cells, or **neurons**, but it was not until 1873 that [[Camillo Golgi]] (1843–1926) developed a staining technique allowing the observation of individual neurons (see **Figure 1.1**).
+	  hl-stamp:: 1740900025560
+	  hl-page:: 11
+	  ls-type:: annotation
+	  id:: 67c406b6-b014-48a5-907d-52dc85fa8345
+	  hl-color:: green
+	  collapsed:: true
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 12
+		  hl-color:: yellow
+		  id:: 67c406e7-aa83-46d7-b897-9ce5cb770eb0
+		  hl-type:: area
+		  hl-stamp:: 1740900070394
+	- Brains and digital computers have somewhat different properties. **Figure 1.2** shows that computers have a cycle time that is a million times faster than a brain.
+	  ls-type:: annotation
+	  hl-page:: 12
+	  hl-color:: blue
+	  id:: 67c4071f-6618-49db-9329-dda117afea20
+	  collapsed:: true
+		- The brain makes up for that with far more storage and interconnection than even a high-end personal computer, although the largest supercomputers match the brain on some metrics.
+		  ls-type:: annotation
+		  hl-page:: 12
+		  hl-color:: yellow
+		  id:: 67c40756-bd74-47f1-913b-23053a20e96c
+		- [:span]
+		  ls-type:: annotation
+		  hl-page:: 13
+		  hl-color:: yellow
+		  id:: 67c4073d-e8af-4963-ba45-6be4b8a473f5
+		  hl-type:: area
+		  hl-stamp:: 1740900156069
+- Futurists make much of these numbers, pointing to an approaching singularity at which computers reach a su-Singularity perhuman level of performance (Vinge, 1993; Kurzweil, 2005; Doctorow and Stross, 2012), and then rapidly improve themselves even further. 
+  ls-type:: annotation
+  hl-page:: 12
   hl-color:: green
-  id:: 67c3df9b-d66b-458b-b313-d29c9baca24b
+  id:: 67c40765-4797-45ff-b42d-f909d16ee53c
+	- But the comparisons of raw numbers are not especially informative. Even with a computer of virtually unlimited capacity, we still require further conceptual breakthroughs in our understanding of intelligence (see Chapter 29).
+	  ls-type:: annotation
+	  hl-page:: 12
+	  hl-color:: yellow
+	  id:: 67c40784-76fe-4fc8-bb52-339858a6b304
