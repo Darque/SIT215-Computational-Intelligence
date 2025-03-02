@@ -581,195 +581,270 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 		  hl-page:: 5
 		  hl-color:: yellow
 		  id:: 67c3b6b3-19f7-4d4d-afa1-0d49e8fec927
-- 1.2.1 Philosophy
+	- 1.2.1 Philosophy
+	  ls-type:: annotation
+	  hl-page:: 6
+	  hl-color:: red
+	  id:: 67c3b6c1-3fdd-4671-a8ca-8cd2f9e2a1b6
+	  collapsed:: true
+		- [[Aristotle]] (384–322 BCE) was the ﬁrst to formulate a precise set of laws governing the rational part of the mind.
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: blue
+		  id:: 67c3b6d5-e144-4e8d-9b9f-309bdc11f62b
+		  collapsed:: true
+			- He developed an informal system of syllogisms for proper reasoning, which in principle allowed one to generate conclusions mechanically, given initial premises.
+			  ls-type:: annotation
+			  hl-page:: 6
+			  hl-color:: yellow
+			  id:: 67c3b754-4918-478f-bc97-69501ef15ff6
+		- [[Ramon Llull]] (c. 1232–1315) devised a system of reasoning published as *Ars Magna* or *The Great Art* (1305). Llull tried to implement his system using an actual mechanical device: a set of paper wheels that could be rotated into different permutations.
+		  hl-page:: 6
+		  ls-type:: annotation
+		  id:: 67c3b76f-6850-43be-ad0b-675e3f590861
+		  hl-color:: blue
+		- Around 1500, [[Leonardo da Vinci]] (1452–1519) designed but did not build a mechanical calculator; recent reconstructions have shown the design to be functional
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: blue
+		  id:: 67c3b7e2-91f1-4ffa-8b88-186776edb478
+		- The ﬁrst known calculating machine was constructed around 1623 by the German scientist [[Wilhelm Schickard]] (1592–1635).
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: blue
+		  id:: 67c3b7ff-185f-4fbb-afd0-451181dbf59e
+		  hl-stamp:: 1740880466711
+		- [[Blaise Pascal]] (1623–1662) built the Pascaline in 1642 and wrote that it “produces effects which appear nearer to thought than all the actions of animals.
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: blue
+		  id:: 67c3b81a-92ff-4532-a94c-8dae08e89e36
+		  hl-stamp:: 1740880485715
+		- [[Gottfried Wilhelm Leibniz]] (1646–1716) built a mechanical device intended to carry out operations on concepts rather than numbers, but its scope was rather limited
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: blue
+		  id:: 67c3b840-f7bc-4801-ad95-5707edb0b1b4
+		  hl-stamp:: 1740880491153
+		- In his 1651 book *Leviathan*, [[Thomas Hobbes]] (1588–1679) suggested the idea of a thinking machine, an “artiﬁcial animal” in his words, arguing “For what is the heart but a spring; and the nerves, but so many strings; and the joints, but so many wheels.” He also suggested that reasoning was like numerical computation: “For ‘reason’ . . . is nothing but ‘reckoning,’ that is adding and subtracting.”
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: blue
+		  id:: 67c3b888-7a47-4c37-8261-c93773965cbe
+		  hl-stamp:: 1740880495585
+		- It’s one thing to say that the mind operates, at least in part, according to logical or numerical rules, and to build physical systems that emulate some of those rules. It’s another to say that the mind itself is such a physical system.
+		  hl-page:: 6
+		  ls-type:: annotation
+		  id:: 67c3b8c7-19b9-4abc-8114-0aca63b2eb28
+		  hl-color:: blue
+		  hl-stamp:: 1740880089028
+		- [[René Descartes]] (1596–1650) gave the ﬁrst clear discussion of the distinction between mind and matter. He noted that a purely physical conception of the mind seems to leave little room for free will.
+		  hl-page:: 6
+		  ls-type:: annotation
+		  id:: 67c3b8fa-ffd4-48d1-aef2-4f8faf8965f4
+		  hl-color:: blue
+		  hl-stamp:: 1740880460455
+		  collapsed:: true
+			- If the mind is governed entirely by physical laws, then it has no more free will than a rock “deciding” to fall downward.
+			  ls-type:: annotation
+			  hl-page:: 6
+			  hl-color:: yellow
+			  id:: 67c3ba26-f8da-499a-b44a-6894bd5a6d51
+		- Descartes was a proponent of **dualism**. He held that there is a part of the human mind (orDualism soul or spirit) that is outside of nature, exempt from physical laws. Animals, on the other hand, did not possess this dual quality; they could be treated as machines.
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: green
+		  id:: 67c3ba3c-4618-4150-b496-6be028cd638c
+		- An alternative to dualism is **materialism**, which holds that the brain’s operation according to the laws of physics constitutes the mind. Free will is simply the way that the perception of available choices appears to the choosing entity.
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: green
+		  id:: 67c3bb18-2f72-46d0-adf2-39a407753929
+		  hl-stamp:: 1740880679166
+		- The terms **physicalism** and **naturalism** are also used to describe this view that stands in contrast to the supernatural.
+		  hl-page:: 6
+		  ls-type:: annotation
+		  id:: 67c3bb2f-5f4c-4060-9711-45fa920faaa3
+		  hl-color:: green
+		- Given a physical mind that manipulates knowledge, the next problem is to establish the source of knowledge.
+		  ls-type:: annotation
+		  hl-page:: 6
+		  hl-color:: blue
+		  id:: 67c3bb52-a6e1-49e9-ac87-d198900e6c7c
+		- The **empiricism** movement, starting with [[Francis Bacon]]’s (1561–1626) *Novum Organum*,[^4] is characterized by a dictum of [[John Locke]] (1632–1704): “Nothing is in the understanding, which was not ﬁrst in the senses.”
+		  hl-page:: 6
+		  ls-type:: annotation
+		  id:: 67c3bb60-ea56-45c5-b2af-5d2109b271ab
+		  hl-color:: green
+		  collapsed:: true
+			- hl-page:: 6
+			  ls-type:: annotation
+			  id:: 67c3bbb0-0b43-4cbb-ad99-3f1a90c4c582
+			  hl-color:: purple
+			  [^4]:The *Novum Organum* is an update of Aristotle’s *Organon*, or instrument of thought.
+		- [[David Hume]]’s (1711–1776) *A Treatise of Human Nature* (Hume, 1739) proposed what is now known as the principle of **induction**: that general rules are acquired by exposure toInduction repeated associations between their elements.
+		  hl-page:: 6
+		  ls-type:: annotation
+		  id:: 67c3bfa8-92f4-4970-b441-d028aa7cc719
+		  hl-color:: green
+		- Building on the work of [[Ludwig Wittgenstein]] (1889–1951) and [[Bertrand Russell]] (1872–1970), the famous [[Vienna Circle]] (Sigmund, 2017), a group of philosophers and mathematicians meeting in Vienna in the 1920s and 1930s, developed the doctrine of **logical positivism**.
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: green
+		  id:: 67c3bfef-8197-4675-a928-65b2ed904a0d
+		- This doctrine holds that all knowledge can be characterized by logical theories connected, ultimately, to **observation sentences** that correspond to sensory inputs; thus logical positivism combines rationalism and empiricism.
+		  hl-page:: 7
+		  ls-type:: annotation
+		  id:: 67c3c02b-33a0-4b0c-87ee-b76cbe9beafb
+		  hl-color:: green
+		  hl-stamp:: 1740882066321
+		- The **conﬁrmation theory** of [[Rudolf Carnap]] (1891–1970) and [[Carl Hempel]] (1905–1997) attempted to analyze the acquisition of knowledge from experience by quantifying the degree of belief that should be assigned to logical sentences based on their connection to observations that conﬁrm or disconﬁrm them.
+		  hl-page:: 7
+		  ls-type:: annotation
+		  id:: 67c3c0a6-147a-4b9e-8596-46f1c79332c0
+		  hl-color:: green
+		  collapsed:: true
+			- Carnap’s book *The Logical Structure of the World* (1928) was perhaps the ﬁrst theory of mind as a computational process.
+			  ls-type:: annotation
+			  hl-page:: 7
+			  hl-color:: yellow
+			  id:: 67c3c0c6-6d7f-40e2-a21f-24a686c4542a
+		- The ﬁnal element in the philosophical picture of the mind is the connection between knowledge and action.
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: blue
+		  id:: 67c3c0e4-4b01-4887-a23d-502d7a781551
+		  collapsed:: true
+			- This question is vital to AI because intelligence requires action as well as reasoning. Moreover, only by understanding how actions are justiﬁed can we understand how to build an agent whose actions are justiﬁable (or rational).
+			  ls-type:: annotation
+			  hl-page:: 7
+			  hl-color:: yellow
+			  id:: 67c3c0ee-3acd-4afe-bd23-94a06eb9cd77
+		- Aristotle argued (in *De Motu Animalium*) that actions are justiﬁed by a logical connection between goals and knowledge of the action’s outcome:
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: blue
+		  id:: 67c3c106-0527-47f2-baf3-15e7b4d42b63
+		  collapsed:: true
+			- ls-type:: annotation
+			  hl-page:: 7
+			  hl-color:: yellow
+			  id:: 67c3c27c-0022-40c1-87bc-d9359f6d0edf
+			  >But how does it happen that thinking is sometimes accompanied by action and sometimes not, sometimes by motion, and sometimes not? It looks as if almost the same thing happens as in the case of reasoning and making inferences about unchanging objects. But in that case the end is a speculative proposition . . . whereas here the conclusion which results from the two premises is an action. . . . I need covering; a cloak is a covering. I need a cloak. What I need, I have to make; I need a cloak. I have to make a cloak. And the conclusion, the “I have to make a cloak,” is an action.
+		- In the *Nicomachean Ethics* (Book III. 3, 1112b), Aristotle further elaborates on this topic, suggesting an algorithm:
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: blue
+		  id:: 67c3c2c3-19e9-4369-bb6e-dda74e78b840
+		  collapsed:: true
+			- hl-page:: 7
+			  ls-type:: annotation
+			  id:: 67c3c2d6-da7f-4993-86de-6a87416a6ccf
+			  hl-color:: yellow
+			  >We deliberate not about ends, but about means. For a doctor does not deliberate whether he shall heal, nor an orator whether he shall persuade, . . . They assume the end and consider how and by what means it is attained, and if it seems easily and best produced thereby; while if it is achieved by one means only they consider *how* it will be achieved by this and by what means *this* will be achieved, till they come to the ﬁrst cause, . . . and what is last in the order of analysis seems to be ﬁrst in the order of becoming. And if we come on an impossibility, we give up the search, e.g., if we need money and this cannot be got; but if a thing appears possible we try to do it.
+		- [[Aristotle]]’s algorithm was implemented 2300 years later by Newell and Simon in their **General Problem Solver** program.
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: green
+		  id:: 67c3c5f6-8ef5-4593-9b8e-b3f747729146
+		  collapsed:: true
+			- We would now call it a greedy regression planning system(see Chapter 11). Methods based on logical planning to achieve deﬁnite goals dominated theﬁrst few decades of theoretical research in AI.
+			  ls-type:: annotation
+			  hl-page:: 7
+			  hl-color:: yellow
+			  id:: 67c3c61f-10bf-4dbc-82aa-179207267a88
+		- Thinking purely in terms of actions achieving goals is often useful but sometimes inapplicable.
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: blue
+		  id:: 67c3db63-7d27-49b3-a20f-83907722315d
+		  collapsed:: true
+			- For example, if there are several different ways to achieve a goal, there needs to be some way to choose among them. More importantly, it may not be possible to achieve a goal with certainty, but some action must still be taken. How then should one decide?
+			  hl-page:: 7
+			  ls-type:: annotation
+			  id:: 67c3dbdd-f24b-4150-950a-dd8840ce47a4
+			  hl-color:: yellow
+		- [[Antoine Arnauld]] (1662), analyzing the notion of rational decisions in gambling, proposed a quantitative formula for maximizing the expected monetary value of the outcome
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: blue
+		  id:: 67c3dc5b-600c-40db-803b-f54174900438
+		- Later, [[Daniel Bernoulli]] (1738) introduced the more general notion of **utility** to capture the internal, subjective value of an outcome.
+		  hl-page:: 7
+		  ls-type:: annotation
+		  id:: 67c3dc72-5201-4c31-9056-d08556979214
+		  hl-color:: green
+		  collapsed:: true
+			- The modern notion of rational decision making under uncertainty involves maximizing expected utility, as explained in Chapter 15.
+			  ls-type:: annotation
+			  hl-page:: 8
+			  hl-color:: yellow
+			  id:: 67c3dc99-ad94-4ca5-b14b-b9f897fe7dfa
+		- In matters of ethics and public policy, a decision maker must consider the interests of multiple individuals. 
+		  ls-type:: annotation
+		  hl-page:: 8
+		  hl-color:: blue
+		  id:: 67c3dcb9-6f16-481f-8afb-129e09505cf6
+		- [[Jeremy Bentham]] (1823) and [[John Stuart Mill]] (1863) promoted the idea of **utilitarianism**: that rational decision making based on maximizing utility should apply to all spheres of human activity, including public policy decisions made on behalf of many individuals.
+		  hl-page:: 8
+		  ls-type:: annotation
+		  id:: 67c3dcd6-d54a-4c56-b2fb-cc7890ef3e71
+		  hl-color:: green
+		- Utilitarianism is a speciﬁc kind of **consequentialism**: the idea that what is right and wrong is determined by the expected outcomes of an action.
+		  ls-type:: annotation
+		  hl-page:: 8
+		  hl-color:: green
+		  id:: 67c3dd21-8cee-4e8c-a083-c92d75b7137e
+		- In contrast, [[Immanuel Kant]], in 1785, proposed a theory of rule-based or **deontological ethics**, in which “doing the right thing” is determined not by outcomes but by universal social laws that govern allowable actions, such as “don’t lie” or “don’t kill.”
+		  hl-page:: 8
+		  ls-type:: annotation
+		  id:: 67c3dd40-5f73-4a22-a7be-9155021905db
+		  hl-color:: green
+		  collapsed:: true
+			- Thus, a utilitarian could tell a white lie if the expected good outweighs the bad, but a Kantian would be bound not to, because lying is inherently wrong.
+			  ls-type:: annotation
+			  hl-page:: 8
+			  hl-color:: yellow
+			  id:: 67c3dd88-92f2-4035-bcd5-a2f04f292482
+			- Mill acknowledged the value of rules, but understood them as efﬁcient decision procedures compiled from ﬁrst-principles reasoning about consequences. Many modern AI systems adopt exactly this approach.
+			  ls-type:: annotation
+			  hl-page:: 8
+			  hl-color:: yellow
+			  id:: 67c3dda4-e2e5-4de7-9b5e-28396952b57c
+- 1.2.2 Mathematics
   ls-type:: annotation
-  hl-page:: 6
+  hl-page:: 8
   hl-color:: red
-  id:: 67c3b6c1-3fdd-4671-a8ca-8cd2f9e2a1b6
-	- [[Aristotle]] (384–322 BCE) was the ﬁrst to formulate a precise set of laws governing the rational part of the mind.
+  id:: 67c3ddb4-e43e-49b7-a0fe-8f23a90f5afd
+	- Philosophers staked out some of the fundamental ideas of AI, but the leap to a formal science required the mathematization of logic and probability and the introduction of a new branch of mathematics: computation.
 	  ls-type:: annotation
-	  hl-page:: 6
+	  hl-page:: 8
 	  hl-color:: blue
-	  id:: 67c3b6d5-e144-4e8d-9b9f-309bdc11f62b
+	  id:: 67c3de63-a1c6-4724-80c6-4ccf5a899968
+	- The idea of **formal logic** can be traced back to the philosophers of ancient Greece, India, and China, but its mathematical development really began with the work of [[George Boole]] (1815–1864), who worked out the details of propositional, or Boolean, logic (Boole, 1847).
+	  hl-page:: 8
+	  ls-type:: annotation
+	  id:: 67c3de87-d37c-4443-9c58-82c58c41dbab
+	  hl-color:: green
+	- In 1879, [[Gottlob Frege]] (1848–1925) extended Boole’s logic to include objects and relations, creating the ﬁrst-order logic that is used today.[^5]
+	  hl-page:: 8
+	  ls-type:: annotation
+	  id:: 67c3dedc-3265-4c66-85b7-ede4899ab774
+	  hl-color:: blue
+	  hl-stamp:: 1740889859943
 	  collapsed:: true
-		- He developed an informal system of syllogisms for proper reasoning, which in principle allowed one to generate conclusions mechanically, given initial premises.
+		- In addition to its central role in the early period of AI research, ﬁrst-order logic motivated the work of G¨odel and Turing that underpinned computation itself, as we explain below.
 		  ls-type:: annotation
-		  hl-page:: 6
+		  hl-page:: 8
 		  hl-color:: yellow
-		  id:: 67c3b754-4918-478f-bc97-69501ef15ff6
-	- [[Ramon Llull]] (c. 1232–1315) devised a system of reasoning published as *Ars Magna* or *The Great Art* (1305). Llull tried to implement his system using an actual mechanical device: a set of paper wheels that could be rotated into different permutations.
-	  hl-page:: 6
-	  ls-type:: annotation
-	  id:: 67c3b76f-6850-43be-ad0b-675e3f590861
-	  hl-color:: blue
-	- Around 1500, [[Leonardo da Vinci]] (1452–1519) designed but did not build a mechanical calculator; recent reconstructions have shown the design to be functional
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: blue
-	  id:: 67c3b7e2-91f1-4ffa-8b88-186776edb478
-	- The ﬁrst known calculating machine was constructed around 1623 by the German scientist [[Wilhelm Schickard]] (1592–1635).
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: blue
-	  id:: 67c3b7ff-185f-4fbb-afd0-451181dbf59e
-	  hl-stamp:: 1740880466711
-	- [[Blaise Pascal]] (1623–1662) built the Pascaline in 1642 and wrote that it “produces effects which appear nearer to thought than all the actions of animals.
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: blue
-	  id:: 67c3b81a-92ff-4532-a94c-8dae08e89e36
-	  hl-stamp:: 1740880485715
-	- [[Gottfried Wilhelm Leibniz]] (1646–1716) built a mechanical device intended to carry out operations on concepts rather than numbers, but its scope was rather limited
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: blue
-	  id:: 67c3b840-f7bc-4801-ad95-5707edb0b1b4
-	  hl-stamp:: 1740880491153
-	- In his 1651 book *Leviathan*, [[Thomas Hobbes]] (1588–1679) suggested the idea of a thinking machine, an “artiﬁcial animal” in his words, arguing “For what is the heart but a spring; and the nerves, but so many strings; and the joints, but so many wheels.” He also suggested that reasoning was like numerical computation: “For ‘reason’ . . . is nothing but ‘reckoning,’ that is adding and subtracting.”
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: blue
-	  id:: 67c3b888-7a47-4c37-8261-c93773965cbe
-	  hl-stamp:: 1740880495585
-	- It’s one thing to say that the mind operates, at least in part, according to logical or numerical rules, and to build physical systems that emulate some of those rules. It’s another to say that the mind itself is such a physical system.
-	  hl-page:: 6
-	  ls-type:: annotation
-	  id:: 67c3b8c7-19b9-4abc-8114-0aca63b2eb28
-	  hl-color:: blue
-	  hl-stamp:: 1740880089028
-	- [[René Descartes]] (1596–1650) gave the ﬁrst clear discussion of the distinction between mind and matter. He noted that a purely physical conception of the mind seems to leave little room for free will.
-	  hl-page:: 6
-	  ls-type:: annotation
-	  id:: 67c3b8fa-ffd4-48d1-aef2-4f8faf8965f4
-	  hl-color:: blue
-	  hl-stamp:: 1740880460455
-	  collapsed:: true
-		- If the mind is governed entirely by physical laws, then it has no more free will than a rock “deciding” to fall downward.
+		  id:: 67c3df64-49cf-4557-9cdb-7284b832c1d0
+		- hl-page:: 8
 		  ls-type:: annotation
-		  hl-page:: 6
-		  hl-color:: yellow
-		  id:: 67c3ba26-f8da-499a-b44a-6894bd5a6d51
-	- Descartes was a proponent of **dualism**. He held that there is a part of the human mind (orDualism soul or spirit) that is outside of nature, exempt from physical laws. Animals, on the other hand, did not possess this dual quality; they could be treated as machines.
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: green
-	  id:: 67c3ba3c-4618-4150-b496-6be028cd638c
-	- An alternative to dualism is **materialism**, which holds that the brain’s operation according to the laws of physics constitutes the mind. Free will is simply the way that the perception of available choices appears to the choosing entity.
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: green
-	  id:: 67c3bb18-2f72-46d0-adf2-39a407753929
-	  hl-stamp:: 1740880679166
-	- The terms **physicalism** and **naturalism** are also used to describe this view that stands in contrast to the supernatural.
-	  hl-page:: 6
-	  ls-type:: annotation
-	  id:: 67c3bb2f-5f4c-4060-9711-45fa920faaa3
-	  hl-color:: green
-	- Given a physical mind that manipulates knowledge, the next problem is to establish the source of knowledge.
-	  ls-type:: annotation
-	  hl-page:: 6
-	  hl-color:: blue
-	  id:: 67c3bb52-a6e1-49e9-ac87-d198900e6c7c
-	- The **empiricism** movement, starting with [[Francis Bacon]]’s (1561–1626) *Novum Organum*,[^4] is characterized by a dictum of [[John Locke]] (1632–1704): “Nothing is in the understanding, which was not ﬁrst in the senses.”
-	  hl-page:: 6
-	  ls-type:: annotation
-	  id:: 67c3bb60-ea56-45c5-b2af-5d2109b271ab
-	  hl-color:: green
-	  collapsed:: true
-		- hl-page:: 6
-		  ls-type:: annotation
-		  id:: 67c3bbb0-0b43-4cbb-ad99-3f1a90c4c582
+		  id:: 67c3deed-8775-449b-be58-2478d86c621e
 		  hl-color:: purple
-		  [^4]:The *Novum Organum* is an update of Aristotle’s *Organon*, or instrument of thought.
-	- [[David Hume]]’s (1711–1776) *A Treatise of Human Nature* (Hume, 1739) proposed what is now known as the principle of **induction**: that general rules are acquired by exposure toInduction repeated associations between their elements.
-	  hl-page:: 6
-	  ls-type:: annotation
-	  id:: 67c3bfa8-92f4-4970-b441-d028aa7cc719
-	  hl-color:: green
-	- Building on the work of [[Ludwig Wittgenstein]] (1889–1951) and [[Bertrand Russell]] (1872–1970), the famous [[Vienna Circle]] (Sigmund, 2017), a group of philosophers and mathematicians meeting in Vienna in the 1920s and 1930s, developed the doctrine of **logical positivism**.
-	  ls-type:: annotation
-	  hl-page:: 7
-	  hl-color:: green
-	  id:: 67c3bfef-8197-4675-a928-65b2ed904a0d
-	- This doctrine holds that all knowledge can be characterized by logical theories connected, ultimately, to **observation sentences** that correspond to sensory inputs; thus logical positivism combines rationalism and empiricism.
-	  hl-page:: 7
-	  ls-type:: annotation
-	  id:: 67c3c02b-33a0-4b0c-87ee-b76cbe9beafb
-	  hl-color:: green
-	  hl-stamp:: 1740882066321
-	- The **conﬁrmation theory** of [[Rudolf Carnap]] (1891–1970) and [[Carl Hempel]] (1905–1997) attempted to analyze the acquisition of knowledge from experience by quantifying the degree of belief that should be assigned to logical sentences based on their connection to observations that conﬁrm or disconﬁrm them.
-	  hl-page:: 7
-	  ls-type:: annotation
-	  id:: 67c3c0a6-147a-4b9e-8596-46f1c79332c0
-	  hl-color:: green
-	  collapsed:: true
-		- Carnap’s book *The Logical Structure of the World* (1928) was perhaps the ﬁrst theory of mind as a computational process.
-		  ls-type:: annotation
-		  hl-page:: 7
-		  hl-color:: yellow
-		  id:: 67c3c0c6-6d7f-40e2-a21f-24a686c4542a
-	- The ﬁnal element in the philosophical picture of the mind is the connection between knowledge and action.
-	  ls-type:: annotation
-	  hl-page:: 7
-	  hl-color:: blue
-	  id:: 67c3c0e4-4b01-4887-a23d-502d7a781551
-	  collapsed:: true
-		- This question is vital to AI because intelligence requires action as well as reasoning. Moreover, only by understanding how actions are justiﬁed can we understand how to build an agent whose actions are justiﬁable (or rational).
-		  ls-type:: annotation
-		  hl-page:: 7
-		  hl-color:: yellow
-		  id:: 67c3c0ee-3acd-4afe-bd23-94a06eb9cd77
-	- Aristotle argued (in *De Motu Animalium*) that actions are justiﬁed by a logical connection between goals and knowledge of the action’s outcome:
-	  ls-type:: annotation
-	  hl-page:: 7
-	  hl-color:: blue
-	  id:: 67c3c106-0527-47f2-baf3-15e7b4d42b63
-	  collapsed:: true
-		- ls-type:: annotation
-		  hl-page:: 7
-		  hl-color:: yellow
-		  id:: 67c3c27c-0022-40c1-87bc-d9359f6d0edf
-		  >But how does it happen that thinking is sometimes accompanied by action and sometimes not, sometimes by motion, and sometimes not? It looks as if almost the same thing happens as in the case of reasoning and making inferences about unchanging objects. But in that case the end is a speculative proposition . . . whereas here the conclusion which results from the two premises is an action. . . . I need covering; a cloak is a covering. I need a cloak. What I need, I have to make; I need a cloak. I have to make a cloak. And the conclusion, the “I have to make a cloak,” is an action.
-	- In the *Nicomachean Ethics* (Book III. 3, 1112b), Aristotle further elaborates on this topic, suggesting an algorithm:
-	  ls-type:: annotation
-	  hl-page:: 7
-	  hl-color:: blue
-	  id:: 67c3c2c3-19e9-4369-bb6e-dda74e78b840
-	  collapsed:: true
-		- hl-page:: 7
-		  ls-type:: annotation
-		  id:: 67c3c2d6-da7f-4993-86de-6a87416a6ccf
-		  hl-color:: yellow
-		  >We deliberate not about ends, but about means. For a doctor does not deliberate whether he shall heal, nor an orator whether he shall persuade, . . . They assume the end and consider how and by what means it is attained, and if it seems easily and best produced thereby; while if it is achieved by one means only they consider *how* it will be achieved by this and by what means *this* will be achieved, till they come to the ﬁrst cause, . . . and what is last in the order of analysis seems to be ﬁrst in the order of becoming. And if we come on an impossibility, we give up the search, e.g., if we need money and this cannot be got; but if a thing appears possible we try to do it.
-	- [[Aristotle]]’s algorithm was implemented 2300 years later by Newell and Simon in their **General Problem Solver** program.
-	  ls-type:: annotation
-	  hl-page:: 7
-	  hl-color:: green
-	  id:: 67c3c5f6-8ef5-4593-9b8e-b3f747729146
-	  collapsed:: true
-		- We would now call it a greedy regression planning system(see Chapter 11). Methods based on logical planning to achieve deﬁnite goals dominated theﬁrst few decades of theoretical research in AI.
-		  ls-type:: annotation
-		  hl-page:: 7
-		  hl-color:: yellow
-		  id:: 67c3c61f-10bf-4dbc-82aa-179207267a88
-	- Thinking purely in terms of actions achieving goals is often useful but sometimes inapplicable.
-	  ls-type:: annotation
-	  hl-page:: 7
-	  hl-color:: blue
-	  id:: 67c3db63-7d27-49b3-a20f-83907722315d
-	  collapsed:: true
-		- For example, if there are several different ways to achieve a goal, there needs to be some way to choose among them. More importantly, it may not be possible to achieve a goal with certainty, but some action must still be taken. How then should one decide?
-		  hl-page:: 7
-		  ls-type:: annotation
-		  id:: 67c3dbdd-f24b-4150-950a-dd8840ce47a4
-		  hl-color:: yellow
-- [[Antoine Arnauld]] (1662), analyzing the notion of rational decisions in gambling, proposed a quantitative formula for maximizing the expected monetary value of the outcome
+		  [^5]:Frege’s proposed notation for ﬁrst-order logic—an arcane combination of textual and geometric features— never became popular.
+- The theory of **probability** can be seen as generalizing logic to situations with uncertainProbability information—a consideration of great importance for AI.
   ls-type:: annotation
-  hl-page:: 7
-  hl-color:: blue
-  id:: 67c3dc5b-600c-40db-803b-f54174900438
-- Later, [[Daniel Bernoulli]] (1738) introduced the more general notion of utility to capture the internal, subjective value
-  ls-type:: annotation
-  hl-page:: 7
+  hl-page:: 8
   hl-color:: green
-  id:: 67c3dc72-5201-4c31-9056-d08556979214
+  id:: 67c3df9b-d66b-458b-b313-d29c9baca24b
