@@ -746,8 +746,30 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 	  hl-page:: 7
 	  hl-color:: green
 	  id:: 67c3c5f6-8ef5-4593-9b8e-b3f747729146
+	  collapsed:: true
 		- We would now call it a greedy regression planning system(see Chapter 11). Methods based on logical planning to achieve deﬁnite goals dominated theﬁrst few decades of theoretical research in AI.
 		  ls-type:: annotation
 		  hl-page:: 7
 		  hl-color:: yellow
 		  id:: 67c3c61f-10bf-4dbc-82aa-179207267a88
+	- Thinking purely in terms of actions achieving goals is often useful but sometimes inapplicable.
+	  ls-type:: annotation
+	  hl-page:: 7
+	  hl-color:: blue
+	  id:: 67c3db63-7d27-49b3-a20f-83907722315d
+	  collapsed:: true
+		- For example, if there are several different ways to achieve a goal, there needs to be some way to choose among them. More importantly, it may not be possible to achieve a goal with certainty, but some action must still be taken. How then should one decide?
+		  hl-page:: 7
+		  ls-type:: annotation
+		  id:: 67c3dbdd-f24b-4150-950a-dd8840ce47a4
+		  hl-color:: yellow
+- [[Antoine Arnauld]] (1662), analyzing the notion of rational decisions in gambling, proposed a quantitative formula for maximizing the expected monetary value of the outcome
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: blue
+  id:: 67c3dc5b-600c-40db-803b-f54174900438
+- Later, [[Daniel Bernoulli]] (1738) introduced the more general notion of utility to capture the internal, subjective value
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: green
+  id:: 67c3dc72-5201-4c31-9056-d08556979214
