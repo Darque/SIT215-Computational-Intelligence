@@ -477,3 +477,8 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
   hl-page:: 4
   hl-color:: yellow
   id:: 67c2f420-23fd-40f5-9574-3f44f5eafa80
+- correctly.
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 67c3b251-0348-4f60-ae3d-0bad43642072
