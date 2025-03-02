@@ -1860,77 +1860,382 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 			  hl-page:: 18
 			  hl-color:: yellow
 			  id:: 67c41e6c-2cec-4a2b-a74d-087e0419e6e0
-- 1.3.2 Early enthusiasm, great expectations (1952–1969)
-  ls-type:: annotation
-  hl-page:: 18
-  hl-color:: red
-  id:: 67c41e8f-3ae7-4ea4-bfa1-ef27ae2ede12
-	- The intellectual establishment of the 1950s, by and large, preferred to believe that “a machine can never do X.” (See Chapter 28 for a long list of X’s gathered by Turing.) 
+	- 1.3.2 Early enthusiasm, great expectations (1952–1969)
 	  ls-type:: annotation
 	  hl-page:: 18
-	  hl-color:: blue
-	  id:: 67c42159-4416-42e9-a487-264c98cac20b
+	  hl-color:: red
+	  id:: 67c41e8f-3ae7-4ea4-bfa1-ef27ae2ede12
 	  collapsed:: true
-		- AI researchers naturally responded by demonstrating one X after another. They focused in particular on tasks considered indicative of intelligence in humans, including games, puzzles, mathematics, and IQ tests.
+		- The intellectual establishment of the 1950s, by and large, preferred to believe that “a machine can never do X.” (See Chapter 28 for a long list of X’s gathered by Turing.) 
 		  ls-type:: annotation
 		  hl-page:: 18
-		  hl-color:: yellow
-		  id:: 67c42171-5a11-4c2f-a4ac-329bc0dd7871
-		- [[John McCarthy]] referred to this period as the “Look, Ma, no hands!” era.
+		  hl-color:: blue
+		  id:: 67c42159-4416-42e9-a487-264c98cac20b
+		  collapsed:: true
+			- AI researchers naturally responded by demonstrating one X after another. They focused in particular on tasks considered indicative of intelligence in humans, including games, puzzles, mathematics, and IQ tests.
+			  ls-type:: annotation
+			  hl-page:: 18
+			  hl-color:: yellow
+			  id:: 67c42171-5a11-4c2f-a4ac-329bc0dd7871
+			- [[John McCarthy]] referred to this period as the “Look, Ma, no hands!” era.
+			  ls-type:: annotation
+			  hl-page:: 18
+			  hl-color:: yellow
+			  id:: 67c42179-ccab-4a69-94b4-7c053db97e05
+			  hl-stamp:: 1740906878709
+		- [[Allen Newell]] and [[Herbert Simon]] followed up their success with LT with the General Problem Solver, or GPS.
+		  hl-page:: 19
 		  ls-type:: annotation
-		  hl-page:: 18
-		  hl-color:: yellow
-		  id:: 67c42179-ccab-4a69-94b4-7c053db97e05
-		  hl-stamp:: 1740906878709
-	- [[Allen Newell]] and [[Herbert Simon]] followed up their success with LT with the General Problem Solver, or GPS.
-	  hl-page:: 19
+		  id:: 67c42196-144a-4dc0-94bb-7adcd71882cc
+		  hl-color:: blue
+		  collapsed:: true
+			- Unlike LT, this program was designed from the start to imitate human problem-solving protocols.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c421db-30c2-4240-ba09-4b7963df881d
+			- Within the limited class of puzzles it could handle, it turned out that the order in which the program considered subgoals and possible actions was similar to that in which humans approached the same problems.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c421f9-bf0f-4321-ae4d-68cfd87065cd
+		- Thus, GPS was probably the ﬁrst program to embody the “thinking humanly” approach. The success of GPS and subsequent programs as models of cognition led [[Allen Newell]] and [[Herbert Simon]] (1976) to formulate the famous **physical symbol system** hypothesis, which states that “a physical symbol system has the necessary and sufﬁcient means for general intelligent action.”
+		  hl-page:: 19
+		  ls-type:: annotation
+		  id:: 67c4225a-9587-43c9-b866-b1bcb0e1e6a1
+		  hl-color:: green
+		  collapsed:: true
+			- What they meant is that any system (human or machine) exhibiting intelligence must operate by manipulating data structures composed of symbols. We will see later that this hypothesis has been challenged from many directions.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c422e4-577e-4920-a0c1-8e64af522367
+		- At IBM, [[Nathaniel Rochester]] and his colleagues produced some of the ﬁrst AI programs.
+		  ls-type:: annotation
+		  hl-page:: 19
+		  hl-color:: blue
+		  id:: 67c42319-4ff5-46d3-aa3b-311193f6384b
+		- [[Herbert Gelernter]] (1959) constructed the Geometry Theorem Prover, which was able to prove theorems that many students of mathematics would ﬁnd quite tricky. This work was a precursor of modern mathematical theorem provers.
+		  ls-type:: annotation
+		  hl-page:: 19
+		  hl-color:: blue
+		  id:: 67c42330-6b55-4b90-ab18-fc0d92925c30
+		- Of all the exploratory work done during this period, perhaps the most inﬂuential in the long run was that of [[Arthur Samuel]] on checkers (draughts).
+		  ls-type:: annotation
+		  hl-page:: 19
+		  hl-color:: blue
+		  id:: 67c4235c-ffd1-4623-9504-1776e2ae3300
+		  collapsed:: true
+			- Using methods that we now call reinforcement learning (see Chapter 23), Samuel’s programs learned to play at a strong amateur level.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c4238a-9d44-4cf1-93c9-a95ce11b938b
+			- He thereby disproved the idea that computers can do only what they are told to: his program quickly learned to play a better game than its creator.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c423a1-afa3-4aa6-aea6-fe4def7769a2
+			- The program was demonstrated on television in 1956, creating a strong impression.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c423ad-e069-4fa3-a5c0-5f45a5cd124c
+			- Like Turing, Samuel had troubleﬁnding computer time. Working at night, he used machines that were still on the testing ﬂoor at IBM’s manufacturing plant.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c423e9-8844-4499-bed6-9d851b9fe52c
+			- Samuel’s program was the precursor of later systems such as TD-GAMMON (Tesauro, 1992), which was among the world’s best backgammon players, and ALPHAGO (Silver et al., 2016), which shocked the world by defeating the human world champion at Go (see Chapter 6).
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c423f8-fb51-4312-97c3-24277f324919
+		- In 1958, [[John McCarthy]] made two important contributions to AI. In MIT AI Lab Memo No. 1, he deﬁned the high-level language **Lisp**, which was to become the dominant AI programming language for the next 30 years.
+		  hl-stamp:: 1740907612247
+		  hl-page:: 19
+		  ls-type:: annotation
+		  id:: 67c4244c-4cb5-41f3-b0cc-281054978514
+		  hl-color:: green
+		  collapsed:: true
+			- In a paper entitled *Programs with Common Sense*, he advanced a conceptual proposal for AI systems based on knowledge and reasoning.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c4247c-fdc2-441a-9aee-2bea2d3d00dc
+			- The paper describes the Advice Taker, a hypothetical program that would embody general knowledge of the world and could use it to derive plans of action.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c4249e-f5e4-4665-a183-954e252890c5
+			- The concept was illustrated with simple logical axioms that sufﬁce to generate a plan to drive to the airport. The program was also designed to accept new axioms in the normal course of operation, thereby allowing it to achieve competence in new areas *without being reprogrammed*.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c424c6-927c-4e75-b3e6-d567e92693e4
+			- he Advice Taker thus embodied the central principles of knowledge representation and reasoning: that it is useful to have a formal, explicit representation of the world and its workings and to be able to manipulate that representation with deductive processes. The paper inﬂuenced the course of AI and remains relevant today.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c424e9-6f66-4e80-ad85-d415b712979e
+		- 1958 also marked the year that [[Marvin Minsky]] moved to MIT. His initial collaboration with [[John McCarthy]] did not last, however.
+		  ls-type:: annotation
+		  hl-page:: 19
+		  hl-color:: blue
+		  id:: 67c42517-ef84-4c84-8e93-4ee9cea62dba
+		  collapsed:: true
+			- McCarthy stressed representation and reasoning in formal logic, whereas Minsky was more interested in getting programs to work and eventually developed an anti-logic outlook.
+			  ls-type:: annotation
+			  hl-page:: 19
+			  hl-color:: yellow
+			  id:: 67c4253e-b8cf-4a7c-a472-eaacdd0bfe02
+			- In 1963, [[McCarthy]] started the AI lab at Stanford. His plan to use logic to build the ultimate Advice Taker was advanced by [[J. A. Robinson]]’s discovery in 1965 of the resolution method (a complete theorem-proving algorithm for ﬁrst-order logic; see Chapter 9).
+			  hl-page:: 19
+			  ls-type:: annotation
+			  id:: 67c42764-0980-47ad-b116-6b2b1c0a2fe9
+			  hl-color:: yellow
+			- Work at Stanford emphasized general-purpose methods for logical reasoning. Applications of logic included [[Cordell Green]]’s question-answering and planning systems (Green, 1969b) and the Shakey robotics project at the Stanford Research Institute (SRI).
+			  ls-type:: annotation
+			  hl-page:: 20
+			  hl-color:: yellow
+			  id:: 67c427da-a62f-4568-a9a6-26a8621ac464
+			- The latter project, discussed further in Chapter 26, was the ﬁrst to demonstrate the complete integration of logical reasoning and physical activity.
+			  ls-type:: annotation
+			  hl-page:: 20
+			  hl-color:: yellow
+			  id:: 67c427f4-189a-493b-85a5-64f02891e613
+		- At MIT, [[Marvin Minsky]] supervised a series of students who chose limited problems that appeared to require intelligence to solve. These limited domains became known as **microworlds**.
+		  hl-page:: 20
+		  ls-type:: annotation
+		  id:: 67c4283a-dbcd-4f4e-b863-1ff5c5d4a26c
+		  hl-color:: green
+		- [[James Slagle]]’s SAINT program (1963) was able to solve closed-form calculus integration problems typical of ﬁrst-year college courses.
+		  ls-type:: annotation
+		  hl-page:: 20
+		  hl-color:: blue
+		  id:: 67c42857-dd0b-4a17-85aa-332fe5bb1aed
+		- [[Tom Evans]]’s ANALOGY program (1968) solved geometric analogy problems that appear in IQ tests.
+		  ls-type:: annotation
+		  hl-page:: 20
+		  hl-color:: blue
+		  id:: 67c42871-1afe-43a9-98b0-67e086c1ecfc
+		- [[Daniel Bobrow]]’s STUDENT program (1967) solved algebra story problems, such as the following:
+		  ls-type:: annotation
+		  hl-page:: 20
+		  hl-color:: blue
+		  id:: 67c4288a-6ee9-4a0f-86a1-4bc80966f29a
+		  collapsed:: true
+			- ls-type:: annotation
+			  hl-page:: 20
+			  hl-color:: yellow
+			  id:: 67c428a0-f760-4c50-af2b-f5cf3b032d04
+			  >If the number of customers Tom gets is twice the square of 20 percent of the number of advertisements he runs, and the number of advertisements he runs is 45, what is the number of customers Tom gets?
+		- The most famous microworld is the **blocks world**, which consists of a set of solid blocksBlocks world placed on a tabletop (or more often, a simulation of a tabletop), as shown in **Figure 1.3**.
+		  hl-page:: 20
+		  ls-type:: annotation
+		  id:: 67c428ee-5a1c-44b1-bac0-7d0b89d99e0e
+		  hl-color:: green
+		  collapsed:: true
+			- A typical task in this world is to rearrange the blocks in a certain way, using a robot hand that can pick up one block at a time.
+			  ls-type:: annotation
+			  hl-page:: 20
+			  hl-color:: yellow
+			  id:: 67c42941-38b0-4091-ab9b-53aa851b45b7
+			- The blocks world was home to the vision project of [[David Huffman]] (1971), the vision and constraint-propagation work of [[David Waltz]] (1975), the learning theory of [[Patrick Winston]] (1970), the natural-language-understanding program of [[Terry Winograd]] (1972), and the planner of [[Scott Fahlman]] (1974).
+			  ls-type:: annotation
+			  hl-page:: 20
+			  hl-color:: yellow
+			  id:: 67c429d1-19e4-4b9f-b96d-7b934e36094c
+			- [:span]
+			  ls-type:: annotation
+			  hl-page:: 20
+			  hl-color:: yellow
+			  id:: 67c42904-e122-47ab-b526-5e3639a06647
+			  hl-type:: area
+			  hl-stamp:: 1740908803132
+		- Early work building on the neural networks of [[Warren McCulloch]] and [[Walter Pitts]] also ﬂourished. The work of [[Shmuel Winograd]] and [[Jack Cowan]] (1963) showed how a large number of elements could collectively represent an individual concept, with a corresponding increase in robustness and parallelism
+		  hl-page:: 20
+		  ls-type:: annotation
+		  id:: 67c42a00-3718-420e-ab6f-13716bf6ae17
+		  hl-color:: blue
+		- [[Hebb]]s learning methods were enhanced by [[Bernie Widrow]] (Widrow and Hoff, 1960; Widrow, 1962), who called his networks **adalines**, and by [[Frank Rosenblatt]] (1962) with his **perceptrons**.
+		  hl-page:: 21
+		  ls-type:: annotation
+		  id:: 67c42a3f-8364-43fd-9f02-86f7d02bcbe6
+		  hl-color:: green
+		- The [[perceptron convergence theorem]] (Block et al.,1962) says that the learning algorithm can adjust the connection strengths of a perceptron to match any input data, provided such a match exists.
+		  ls-type:: annotation
+		  hl-page:: 21
+		  hl-color:: green
+		  id:: 67c42a92-1ad5-43b1-9fb5-c62e25962aef
+	- 1.3.3 A dose of reality (1966–1973)
 	  ls-type:: annotation
-	  id:: 67c42196-144a-4dc0-94bb-7adcd71882cc
-	  hl-color:: blue
+	  hl-page:: 21
+	  hl-color:: red
+	  id:: 67c42aa7-4df6-45be-bc5e-6bb344f331b4
 	  collapsed:: true
-		- Unlike LT, this program was designed from the start to imitate human problem-solving protocols.
+		- From the beginning, AI researchers were not shy about making predictions of their coming successes. The following statement by [[Herbert Simon]] in 1957 is often quoted:
 		  ls-type:: annotation
-		  hl-page:: 19
-		  hl-color:: yellow
-		  id:: 67c421db-30c2-4240-ba09-4b7963df881d
-		- Within the limited class of puzzles it could handle, it turned out that the order in which the program considered subgoals and possible actions was similar to that in which humans approached the same problems.
+		  hl-page:: 21
+		  hl-color:: blue
+		  id:: 67c42ac0-879c-4cdb-bd36-5e78fc660898
+		  collapsed:: true
+			- hl-page:: 21
+			  ls-type:: annotation
+			  id:: 67c42adc-45a5-4fa6-b4fb-d2a70a5f7095
+			  hl-color:: yellow
+			  >It is not my aim to surprise or shock you—but the simplest way I can summarize is to say that there are now in the world machines that think, that learn and that create. Moreover, their ability to do these things is going to increase rapidly until—in a visible future—the range of problems they can handle will be coextensive with the range to which the human mind has been applied.
+		- The term “visible future” is vague, but [[Herbert Simon]] also made more concrete predictions: that within 10 years a computer would be chess champion and a signiﬁcant mathematical theorem would be proved by machine.
 		  ls-type:: annotation
-		  hl-page:: 19
-		  hl-color:: yellow
-		  id:: 67c421f9-bf0f-4321-ae4d-68cfd87065cd
-	- Thus, GPS was probably the ﬁrst program to embody the “thinking humanly” approach. The success of GPS and subsequent programs as models of cognition led [[Allen Newell]] and [[Herbert Simon]] (1976) to formulate the famous **physical symbol system** hypothesis, which states that “a physical symbol system has the necessary and sufﬁcient means for general intelligent action.”
-	  hl-page:: 19
+		  hl-page:: 21
+		  hl-color:: blue
+		  id:: 67c42ba3-fc7b-4b41-bb21-95f275a4abd6
+		  collapsed:: true
+			- These predictions came true (or approximately true) within 40 years rather than 10. Simon’s overconﬁdence was due to the promising performance of early AI systems on simple examples. In almost all cases, however, these early systems failed on more difﬁcult problems.
+			  ls-type:: annotation
+			  hl-page:: 21
+			  hl-color:: yellow
+			  id:: 67c42bc2-e2b4-4a4e-8a9b-96af45d10495
+		- There were two main reasons for this failure:
+		  hl-page:: 21
+		  ls-type:: annotation
+		  id:: 67c42be2-a053-4e6d-acbd-706497ab0d03
+		  hl-color:: blue
+		  collapsed:: true
+			- The ﬁrst was that many early AI systems were based primarily on “informed introspection” as to how humans perform a task, rather than on a careful analysis of the task, what it means to be a solution, and what an algorithm would need to do to reliably produce such solutions.
+			  ls-type:: annotation
+			  hl-page:: 21
+			  hl-color:: blue
+			  id:: 67c42bf2-36c5-4f2f-8ccd-af1a07a512a6
+			- The second reason for failure was a lack of appreciation of the intractability of many of the problems that AI was attempting to solve.
+			  ls-type:: annotation
+			  hl-page:: 21
+			  hl-color:: blue
+			  id:: 67c42c03-16a3-46eb-8231-82d0a72f8854
+			  collapsed:: true
+				- Most of the early problem-solving systems worked by trying out different combinations of steps until the solution was found. This strategy worked initially because microworlds contained very few objects and hence very few possible actions and very short solution sequences.
+				  ls-type:: annotation
+				  hl-page:: 21
+				  hl-color:: yellow
+				  id:: 67c42c11-c490-4cd3-9704-a231f76fc278
+				- Before the theory of computational complexity was developed, it was widely thought that “scaling up” to larger problems was simply a matter of faster hardware and larger memories.
+				  ls-type:: annotation
+				  hl-page:: 21
+				  hl-color:: yellow
+				  id:: 67c42c29-3901-4acd-b052-4a0c8435a9d4
+				- The optimism that accompanied the development of resolution theorem proving, for example, was soon dampened when researchers failed to prove theorems involving more than a few dozen facts.
+				  ls-type:: annotation
+				  hl-page:: 21
+				  hl-color:: yellow
+				  id:: 67c42c39-2283-464e-a64d-0c67c5a69ba1
+				- _The fact that a program can Jﬁnd a solution in principle does not mean that the program contains any of the mechanisms needed to ﬁnd it in practice._
+				  ls-type:: annotation
+				  hl-page:: 21
+				  hl-color:: yellow
+				  id:: 67c42c43-eefd-4d88-b060-f80f7682824c
+		- The illusion of unlimited computational power was not conﬁned to problem-solving programs.
+		  ls-type:: annotation
+		  hl-page:: 21
+		  hl-color:: blue
+		  id:: 67c42cc6-8145-4ceb-ac62-57be4c925e17
+		- Early experiments in **machine evolution** (now called **genetic programming**) (Friedberg, 1958; Friedberg et al., 1959) were based on the undoubtedly correct belief that by making an appropriate series of small mutations to a machine-code program, one can generate a program with good performance for any particular task.
+		  hl-page:: 21
+		  ls-type:: annotation
+		  id:: 67c42cdd-90f2-4146-9328-7aa7c1f4754f
+		  hl-color:: blue
+		  collapsed:: true
+			- The idea, then, was to try random mutations with a selection process to preserve mutations that seemed useful. Despite thousands of hours of CPU time, almost no progress was demonstrated.
+			  ls-type:: annotation
+			  hl-page:: 21
+			  hl-color:: yellow
+			  id:: 67c42d15-4077-4f38-824d-cc38635d77d3
+		- Failure to come to grips with the “combinatorial explosion” was one of the main criticisms of AI contained in the Lighthill report (Lighthill, 1973), which formed the basis for the decision by the British government to end support for AI research in all but two universities.
+		  hl-page:: 21
+		  ls-type:: annotation
+		  id:: 67c42d29-f3a2-4f44-b001-ddb7ef40f723
+		  hl-color:: blue
+		  collapsed:: true
+			- (Oral tradition paints a somewhat different and more colorful picture, with political ambitions and personal animosities whose description is beside the point.
+			  ls-type:: annotation
+			  hl-page:: 22
+			  hl-color:: yellow
+			  id:: 67c42d5f-7993-460f-9806-f77ed2f21586
+		- A third difﬁculty arose because of some fundamental limitations on the basic structures being used to generate intelligent behavior.
+		  ls-type:: annotation
+		  hl-page:: 22
+		  hl-color:: blue
+		  id:: 67c42dd2-953f-44d8-a044-9e62953bcdbe
+		  collapsed:: true
+			- For example, Minsky and Papert’s book *Perceptrons* (1969) proved that, although perceptrons (a simple form of neural network) could be shown to learn anything they were capable of representing, they could represent very little.
+			  ls-type:: annotation
+			  hl-page:: 22
+			  hl-color:: yellow
+			  id:: 67c42dea-2008-45db-8902-839b64682c75
+			  hl-stamp:: 1740910063091
+			- In particular, a two-input perceptron could not be trained to recognize when its two inputs were different. Although their results did not apply to more complex, multilayer networks, research funding for neural-net research soon dwindled to almost nothing.
+			  ls-type:: annotation
+			  hl-page:: 22
+			  hl-color:: yellow
+			  id:: 67c42e51-2ab2-4fcc-a676-6d863b21910f
+			- Ironically, the new back-propagation learning algorithms that were to cause an enormous resurgence in neural-net research in the late 1980s and again in the 2010s had already been developed in other contexts in the early 1960s (Kelley, 1960; Bryson, 1962).
+			  ls-type:: annotation
+			  hl-page:: 22
+			  hl-color:: yellow
+			  id:: 67c42e70-7335-46fa-9eec-132c54f9d923
+- 1.3.4 Expert systems (1969–1986)
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: red
+  id:: 67c42e93-29e6-425b-804a-7d3ae2483cf7
+	- The picture of problem solving that had arisen during the ﬁrst decade of AI research was of a general-purpose search mechanism trying to string together elementary reasoning steps toﬁnd complete solutions. 
 	  ls-type:: annotation
-	  id:: 67c4225a-9587-43c9-b866-b1bcb0e1e6a1
+	  hl-page:: 22
+	  hl-color:: blue
+	  id:: 67c42f0a-a789-4376-9419-e0c3695e90af
+	- Such approaches have been called **weak methods** because, although general, they do not scale up to large or difﬁcult problem instances.
+	  hl-page:: 22
+	  ls-type:: annotation
+	  id:: 67c42f25-6c7b-4eb5-9b05-704e66bcbdca
 	  hl-color:: green
 	  collapsed:: true
-		- What they meant is that any system (human or machine) exhibiting intelligence must operate by manipulating data structures composed of symbols. We will see later that this hypothesis has been challenged from many directions.
+		- The alternative to weak methods is to use more powerful, domain-speciﬁc knowledge that allows larger reasoning steps and can more easily handle typically occurring cases in narrow areas of expertise. One might say that to solve a hard problem, you have to almost know the answer already.
 		  ls-type:: annotation
-		  hl-page:: 19
+		  hl-page:: 22
 		  hl-color:: yellow
-		  id:: 67c422e4-577e-4920-a0c1-8e64af522367
-	- At IBM, [[Nathaniel Rochester]] and his colleagues produced some of the ﬁrst AI programs.
+		  id:: 67c42f4b-ec24-4e0f-a44f-d52516cf7972
+	- The DENDRAL program (Buchanan et al., 1969) was an early example of this approach. It was developed at Stanford, where [[Ed Feigenbaum]] (a former student of [[Herbert Simon]]), [[Bruce Buchanan]] (a philosopher turned computer scientist), and [[Joshua Lederberg]] (a Nobel laureate geneticist) teamed up to solve the problem of inferring molecular structure from the information provided by a mass spectrometer.
 	  ls-type:: annotation
-	  hl-page:: 19
+	  hl-page:: 22
 	  hl-color:: blue
-	  id:: 67c42319-4ff5-46d3-aa3b-311193f6384b
-	- [[Herbert Gelernter]] (1959) constructed the Geometry Theorem Prover, which was able to prove theorems that many students of mathematics would ﬁnd quite tricky. This work was a precursor of modern mathematical theorem provers.
-	  ls-type:: annotation
-	  hl-page:: 19
-	  hl-color:: blue
-	  id:: 67c42330-6b55-4b90-ab18-fc0d92925c30
-- Of all the exploratory work done during this period, perhaps the most inﬂuential in the long run was that of [[Arthur Samuel]] on checkers (draughts).
+	  id:: 67c42f6d-eab5-4d72-94f2-e737bd7713ab
+	  collapsed:: true
+		- The input to the program consists of the elementary formula of the molecule (e.g., *C_{6}H_{13}NO_{2}*) and the mass spectrum giving the masses of the various fragments of the molecule generated when it is bombarded by an electron beam.
+		  hl-page:: 22
+		  ls-type:: annotation
+		  id:: 67c42f9d-0448-4c6b-baca-444c7d5a9cc8
+		  hl-color:: yellow
+		- For example, the mass spectrum might contain a peak at *m* = 15, corresponding to the mass of a methyl (*CH_{3}*) fragment.
+		  hl-page:: 22
+		  ls-type:: annotation
+		  id:: 67c42fcf-a38d-49ce-8ffc-079d0e8a2d58
+		  hl-color:: yellow
+- The naive version of the program generated all possible structures consistent with the formula, and then predicted what mass spectrum would be observed for each, comparing this with the actual spectrum.
   ls-type:: annotation
-  hl-page:: 19
+  hl-page:: 22
   hl-color:: blue
-  id:: 67c4235c-ffd1-4623-9504-1776e2ae3300
-	- Using methods that we now call reinforcement learning (see Chapter 23), Samuel’s programs learned to play at a strong amateur level.
+  id:: 67c43018-bec0-41c4-a26c-42326d1f1c94
+- As one might expect, this is intractable for even moderate-sized molecules. The DENDRAL researchers consulted analytical chemists and found that they worked by looking for well-known patterns of peaks in the spectrum that suggested common substructures in the molecule. For example, the following rule is used to recognize a ketone(*C*=O) subgroup (which weighs 28):
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: yellow
+  id:: 67c43102-7b26-451d-8881-d71eed86b863
+	- hl-page:: 22
 	  ls-type:: annotation
-	  hl-page:: 19
+	  id:: 67c43120-775c-4895-be1a-7b2f132d7e5e
 	  hl-color:: yellow
-	  id:: 67c4238a-9d44-4cf1-93c9-a95ce11b938b
-	- He thereby disproved the idea that computers can do only what they are told to: his program quickly learned to play a better game than its creator.
-	  ls-type:: annotation
-	  hl-page:: 19
-	  hl-color:: yellow
-	  id:: 67c423a1-afa3-4aa6-aea6-fe4def7769a2
+	  >**if** *M* is the mass of the whole molecule and there are two peaks at *x*_{1} and *x*{2} such that (a) *x*_{1} + *x*_{2} = *M* + 28; (b) *x*_{1} − 28 is a high peak; (c) *x*_{2} − 28 is a high peak; and (d) At least one of *x*_{1} and *x*_{2} is high then there is a ketone subgroup.
+- Recognizing that the molecule contains a particular substructure reduces the number of possible candidates enormously.
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: blue
+  id:: 67c431b0-f314-45c4-8803-034bddd830fe
