@@ -2182,60 +2182,190 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 			  hl-page:: 22
 			  hl-color:: yellow
 			  id:: 67c42e70-7335-46fa-9eec-132c54f9d923
-- 1.3.4 Expert systems (1969–1986)
+	- 1.3.4 Expert systems (1969–1986)
+	  ls-type:: annotation
+	  hl-page:: 22
+	  hl-color:: red
+	  id:: 67c42e93-29e6-425b-804a-7d3ae2483cf7
+	  collapsed:: true
+		- The picture of problem solving that had arisen during the ﬁrst decade of AI research was of a general-purpose search mechanism trying to string together elementary reasoning steps toﬁnd complete solutions. 
+		  ls-type:: annotation
+		  hl-page:: 22
+		  hl-color:: blue
+		  id:: 67c42f0a-a789-4376-9419-e0c3695e90af
+		- Such approaches have been called **weak methods** because, although general, they do not scale up to large or difﬁcult problem instances.
+		  hl-page:: 22
+		  ls-type:: annotation
+		  id:: 67c42f25-6c7b-4eb5-9b05-704e66bcbdca
+		  hl-color:: green
+		  collapsed:: true
+			- The alternative to weak methods is to use more powerful, domain-speciﬁc knowledge that allows larger reasoning steps and can more easily handle typically occurring cases in narrow areas of expertise. One might say that to solve a hard problem, you have to almost know the answer already.
+			  ls-type:: annotation
+			  hl-page:: 22
+			  hl-color:: yellow
+			  id:: 67c42f4b-ec24-4e0f-a44f-d52516cf7972
+		- The DENDRAL program (Buchanan et al., 1969) was an early example of this approach. It was developed at Stanford, where [[Ed Feigenbaum]] (a former student of [[Herbert Simon]]), [[Bruce Buchanan]] (a philosopher turned computer scientist), and [[Joshua Lederberg]] (a Nobel laureate geneticist) teamed up to solve the problem of inferring molecular structure from the information provided by a mass spectrometer.
+		  ls-type:: annotation
+		  hl-page:: 22
+		  hl-color:: blue
+		  id:: 67c42f6d-eab5-4d72-94f2-e737bd7713ab
+		  collapsed:: true
+			- The input to the program consists of the elementary formula of the molecule (e.g., *C_{6}H_{13}NO_{2}*) and the mass spectrum giving the masses of the various fragments of the molecule generated when it is bombarded by an electron beam.
+			  hl-page:: 22
+			  ls-type:: annotation
+			  id:: 67c42f9d-0448-4c6b-baca-444c7d5a9cc8
+			  hl-color:: yellow
+			- For example, the mass spectrum might contain a peak at *m* = 15, corresponding to the mass of a methyl (*CH_{3}*) fragment.
+			  hl-page:: 22
+			  ls-type:: annotation
+			  id:: 67c42fcf-a38d-49ce-8ffc-079d0e8a2d58
+			  hl-color:: yellow
+		- The naive version of the program generated all possible structures consistent with the formula, and then predicted what mass spectrum would be observed for each, comparing this with the actual spectrum.
+		  ls-type:: annotation
+		  hl-page:: 22
+		  hl-color:: blue
+		  id:: 67c43018-bec0-41c4-a26c-42326d1f1c94
+		  collapsed:: true
+			- As one might expect, this is intractable for even moderate-sized molecules. The DENDRAL researchers consulted analytical chemists and found that they worked by looking for well-known patterns of peaks in the spectrum that suggested common substructures in the molecule. For example, the following rule is used to recognize a ketone(*C*=O) subgroup (which weighs 28):
+			  ls-type:: annotation
+			  hl-page:: 22
+			  hl-color:: yellow
+			  id:: 67c43102-7b26-451d-8881-d71eed86b863
+				- hl-page:: 22
+				  ls-type:: annotation
+				  id:: 67c43120-775c-4895-be1a-7b2f132d7e5e
+				  hl-color:: yellow
+				  >**if** *M* is the mass of the whole molecule and there are two peaks at *x*_{1} and *x*{2} such that (a) *x*_{1} + *x*_{2} = *M* + 28; (b) *x*_{1} − 28 is a high peak; (c) *x*_{2} − 28 is a high peak; and (d) At least one of *x*_{1} and *x*_{2} is high then there is a ketone subgroup.
+		- Recognizing that the molecule contains a particular substructure reduces the number of possible candidates enormously.
+		  ls-type:: annotation
+		  hl-page:: 22
+		  hl-color:: blue
+		  id:: 67c431b0-f314-45c4-8803-034bddd830fe
+		  collapsed:: true
+			- According to its authors, DENDRAL was powerful because it embodied the relevant knowledge of mass spectroscopy not in the form of ﬁrst principles but in efﬁcient “cookbook recipes” (Feigenbaum et al., 1971).
+			  hl-page:: 22
+			  ls-type:: annotation
+			  id:: 67c431c4-60ce-454a-b8cf-e4e4b7da51cd
+			  hl-color:: yellow
+			- The signiﬁcance of DENDRAL was that it was the ﬁrst successful *knowledge-intensive* system: its expertise derived from large numbers of special-purpose rules.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c431f0-0746-4c17-906a-1ad419b64736
+		- In 1971, Feigenbaum and others at Stanford began the Heuristic Programming Project (HPP) to investigate the extent to which the new methodology of **expert systems** could be applied to other areas.
+		  ls-type:: annotation
+		  hl-page:: 23
+		  hl-color:: green
+		  id:: 67c43217-b281-4860-9fc8-03c3473f5c2e
+		- The next major effort was the MYCIN system for diagnosing blood infections. With about450 rules, MYCIN was able to perform as well as some experts, and considerably better than junior doctors. It also contained two major differences from DENDRAL:
+		  hl-page:: 23
+		  ls-type:: annotation
+		  id:: 67c43244-78f4-4ba8-9858-a9f920afc26a
+		  hl-color:: blue
+		  collapsed:: true
+			- First, unlike the DENDRAL rules, no general theoretical model existed from which the MYCIN rules could be deduced. They had to be acquired from extensive interviewing of experts. 
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c43292-d510-4649-8972-92ee51dd07d2
+			- Second, the rules had to reﬂect the uncertainty associated with medical knowledge.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c432a3-1d43-47e8-9731-d64c0c407526
+		- MYCIN incorporated a calculus of uncertainty called **certainty factors** (see Chapter 13), which seemed (at the time) to ﬁt well with how doctors assessed the impact of evidence on the diagnosis.
+		  hl-page:: 23
+		  ls-type:: annotation
+		  id:: 67c432b2-18a3-43e0-9054-196cfc38e7de
+		  hl-color:: green
+		- The ﬁrst successful commercial expert system, R1, began operation at the Digital Equipment Corporation (McDermott, 1982). 
+		  ls-type:: annotation
+		  hl-page:: 23
+		  hl-color:: blue
+		  id:: 67c432ef-c830-4392-9f26-d20c589c8cee
+		  collapsed:: true
+			- The program helped conﬁgure orders for new computer systems; by 1986, it was saving the company an estimated $40 million a year. By 1988, DEC’s AI group had 40 expert systems deployed, with more on the way. DuPont had 100 in use and 500 in development. Nearly every major U.S. corporation had its own AI group and was either using or investigating expert systems.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c4331b-ee02-40bc-ab8c-3d6e5bab5a11
+		- The importance of domain knowledge was also apparent in the area of natural language understanding.
+		  ls-type:: annotation
+		  hl-page:: 23
+		  hl-color:: blue
+		  id:: 67c43337-20cd-43df-b0f2-6a3fcfb78c76
+		  collapsed:: true
+			- Despite the success of Winograd’s SHRDLU system, its methods did not extend to more general tasks: for problems such as ambiguity resolution it used simple rules that relied on the tiny scope of the blocks world.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c43354-5d8a-4035-8699-441c27ce01ab
+		- Several researchers, including [[Eugene Charniak]] at MIT and [[Roger Schank]] at Yale, suggested that robust language understanding would require general knowledge about the world and a general method for using that knowledge.
+		  hl-page:: 23
+		  ls-type:: annotation
+		  id:: 67c43391-eba1-4b2c-815c-412c2b0e9928
+		  hl-color:: blue
+		  collapsed:: true
+			- ([[Roger Schank]] went further, claiming, “There is no such thing as syntax,” which upset a lot of linguists but did serve to start a useful discussion.) Schank and his students built a series of programs (Schank and Abelson, 1977; Wilensky, 1978; Schank and Riesbeck, 1981) that all had the task of understanding natural language.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c433c0-b55e-49a4-97e3-0d98a53d5622
+			- The emphasis, however, was less on language *per se* and more on the problems of representing and reasoning with the knowledge required for language understanding.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c433e7-31ae-4452-9430-decfd906efb3
+		- The widespread growth of applications to real-world problems led to the development of a wide range of representation and reasoning tools.
+		  ls-type:: annotation
+		  hl-page:: 23
+		  hl-color:: blue
+		  id:: 67c43404-aab0-4d44-a9ea-924a0c3bad25
+		  collapsed:: true
+			- Some were based on logic—for example, the Prolog language became popular in Europe and Japan, and the PLANNER family in the United States.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c43415-4702-4840-addd-850f17f54ad3
+		- Others, following [[Marvin Minsky]] ’s idea of **frames** (1975), adopted a more structured approach, assembling facts about particular object and event types and arranging the types into a large taxonomic hierarchy analogous to a biological taxonomy.
+		  hl-page:: 23
+		  ls-type:: annotation
+		  id:: 67c43429-ded4-428e-81da-ed84d09a4aa1
+		  hl-color:: green
+		- In 1981, the Japanese government announced the “Fifth Generation” project, a 10-year plan to build massively parallel, intelligent computers running Prolog.
+		  ls-type:: annotation
+		  hl-page:: 23
+		  hl-color:: blue
+		  id:: 67c43459-399d-4d2e-894b-e3286debed34
+		  collapsed:: true
+			- The budget was to exceed a $1.3 billion in today’s money. In response, the United States formed the Microelectronics and Computer Technology Corporation (MCC), a consortium designed to assure national competitiveness.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c43472-b1e7-4751-a0fc-a25595a3b52d
+			- In both cases, AI was part of a broad effort, including chip design and human-interface research. In Britain, the Alvey report reinstated the funding removed by the Lighthill report. However, none of these projects ever met its ambitious goals in terms of new AI capabilities or economic impact.
+			  ls-type:: annotation
+			  hl-page:: 23
+			  hl-color:: yellow
+			  id:: 67c43487-920b-4441-8b1a-e05ed8c8f603
+		- Overall, the AI industry boomed from a few million dollars in 1980 to billions of dollars in 1988, including hundreds of companies building expert systems, vision systems, robots, and software and hardware specialized for these purposes.
+		  ls-type:: annotation
+		  hl-page:: 24
+		  hl-color:: blue
+		  id:: 67c4349e-0f5e-4824-a390-2c08cbdaaadc
+		- Soon after that came a period called the “AI winter,” in which many companies fell by the wayside as they failed to deliver on extravagant promises
+		  ls-type:: annotation
+		  hl-page:: 24
+		  hl-color:: blue
+		  id:: 67c434a9-9e29-44bc-b187-39316c3d8e8f
+		  collapsed:: true
+			- It turned out to be difﬁcult to build and maintain expert systems for complex domains, in part because the reasoning methods used by the systems broke down in the face of uncertainty and in part because the systems could not learn from experience.
+			  ls-type:: annotation
+			  hl-page:: 24
+			  hl-color:: yellow
+			  id:: 67c434b5-a9e5-4298-a198-94ecc6001553
+- 1.3.5 The return of neural networks (1986–present)
   ls-type:: annotation
-  hl-page:: 22
+  hl-page:: 24
   hl-color:: red
-  id:: 67c42e93-29e6-425b-804a-7d3ae2483cf7
-	- The picture of problem solving that had arisen during the ﬁrst decade of AI research was of a general-purpose search mechanism trying to string together elementary reasoning steps toﬁnd complete solutions. 
-	  ls-type:: annotation
-	  hl-page:: 22
-	  hl-color:: blue
-	  id:: 67c42f0a-a789-4376-9419-e0c3695e90af
-	- Such approaches have been called **weak methods** because, although general, they do not scale up to large or difﬁcult problem instances.
-	  hl-page:: 22
-	  ls-type:: annotation
-	  id:: 67c42f25-6c7b-4eb5-9b05-704e66bcbdca
-	  hl-color:: green
-	  collapsed:: true
-		- The alternative to weak methods is to use more powerful, domain-speciﬁc knowledge that allows larger reasoning steps and can more easily handle typically occurring cases in narrow areas of expertise. One might say that to solve a hard problem, you have to almost know the answer already.
-		  ls-type:: annotation
-		  hl-page:: 22
-		  hl-color:: yellow
-		  id:: 67c42f4b-ec24-4e0f-a44f-d52516cf7972
-	- The DENDRAL program (Buchanan et al., 1969) was an early example of this approach. It was developed at Stanford, where [[Ed Feigenbaum]] (a former student of [[Herbert Simon]]), [[Bruce Buchanan]] (a philosopher turned computer scientist), and [[Joshua Lederberg]] (a Nobel laureate geneticist) teamed up to solve the problem of inferring molecular structure from the information provided by a mass spectrometer.
-	  ls-type:: annotation
-	  hl-page:: 22
-	  hl-color:: blue
-	  id:: 67c42f6d-eab5-4d72-94f2-e737bd7713ab
-	  collapsed:: true
-		- The input to the program consists of the elementary formula of the molecule (e.g., *C_{6}H_{13}NO_{2}*) and the mass spectrum giving the masses of the various fragments of the molecule generated when it is bombarded by an electron beam.
-		  hl-page:: 22
-		  ls-type:: annotation
-		  id:: 67c42f9d-0448-4c6b-baca-444c7d5a9cc8
-		  hl-color:: yellow
-		- For example, the mass spectrum might contain a peak at *m* = 15, corresponding to the mass of a methyl (*CH_{3}*) fragment.
-		  hl-page:: 22
-		  ls-type:: annotation
-		  id:: 67c42fcf-a38d-49ce-8ffc-079d0e8a2d58
-		  hl-color:: yellow
-- The naive version of the program generated all possible structures consistent with the formula, and then predicted what mass spectrum would be observed for each, comparing this with the actual spectrum.
-  ls-type:: annotation
-  hl-page:: 22
-  hl-color:: blue
-  id:: 67c43018-bec0-41c4-a26c-42326d1f1c94
-- As one might expect, this is intractable for even moderate-sized molecules. The DENDRAL researchers consulted analytical chemists and found that they worked by looking for well-known patterns of peaks in the spectrum that suggested common substructures in the molecule. For example, the following rule is used to recognize a ketone(*C*=O) subgroup (which weighs 28):
-  ls-type:: annotation
-  hl-page:: 22
-  hl-color:: yellow
-  id:: 67c43102-7b26-451d-8881-d71eed86b863
-	- hl-page:: 22
-	  ls-type:: annotation
-	  id:: 67c43120-775c-4895-be1a-7b2f132d7e5e
-	  hl-color:: yellow
-	  >**if** *M* is the mass of the whole molecule and there are two peaks at *x*_{1} and *x*{2} such that (a) *x*_{1} + *x*_{2} = *M* + 28; (b) *x*_{1} − 28 is a high peak; (c) *x*_{2} − 28 is a high peak; and (d) At least one of *x*_{1} and *x*_{2} is high then there is a ketone subgroup.
-- Recognizing that the molecule contains a particular substructure reduces the number of possible candidates enormously.
-  ls-type:: annotation
-  hl-page:: 22
-  hl-color:: blue
-  id:: 67c431b0-f314-45c4-8803-034bddd830fe
+  id:: 67c434cd-236e-4a74-809d-258dd8e13a42
