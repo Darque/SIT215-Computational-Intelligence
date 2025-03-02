@@ -691,8 +691,63 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 	  hl-page:: 7
 	  hl-color:: green
 	  id:: 67c3bfef-8197-4675-a928-65b2ed904a0d
-		- This doctrine holds that all knowledge can be characterized by logical theories connected, ultimately, to **observation sentences** that correspond to sensory inputs; thus logical positivism combines rationalism and empiricism.
-		  hl-page:: 7
+	- This doctrine holds that all knowledge can be characterized by logical theories connected, ultimately, to **observation sentences** that correspond to sensory inputs; thus logical positivism combines rationalism and empiricism.
+	  hl-page:: 7
+	  ls-type:: annotation
+	  id:: 67c3c02b-33a0-4b0c-87ee-b76cbe9beafb
+	  hl-color:: green
+	  hl-stamp:: 1740882066321
+	- The **conﬁrmation theory** of [[Rudolf Carnap]] (1891–1970) and [[Carl Hempel]] (1905–1997) attempted to analyze the acquisition of knowledge from experience by quantifying the degree of belief that should be assigned to logical sentences based on their connection to observations that conﬁrm or disconﬁrm them.
+	  hl-page:: 7
+	  ls-type:: annotation
+	  id:: 67c3c0a6-147a-4b9e-8596-46f1c79332c0
+	  hl-color:: green
+	  collapsed:: true
+		- Carnap’s book *The Logical Structure of the World* (1928) was perhaps the ﬁrst theory of mind as a computational process.
 		  ls-type:: annotation
-		  id:: 67c3c02b-33a0-4b0c-87ee-b76cbe9beafb
+		  hl-page:: 7
 		  hl-color:: yellow
+		  id:: 67c3c0c6-6d7f-40e2-a21f-24a686c4542a
+	- The ﬁnal element in the philosophical picture of the mind is the connection between knowledge and action.
+	  ls-type:: annotation
+	  hl-page:: 7
+	  hl-color:: blue
+	  id:: 67c3c0e4-4b01-4887-a23d-502d7a781551
+	  collapsed:: true
+		- This question is vital to AI because intelligence requires action as well as reasoning. Moreover, only by understanding how actions are justiﬁed can we understand how to build an agent whose actions are justiﬁable (or rational).
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: yellow
+		  id:: 67c3c0ee-3acd-4afe-bd23-94a06eb9cd77
+	- Aristotle argued (in *De Motu Animalium*) that actions are justiﬁed by a logical connection between goals and knowledge of the action’s outcome:
+	  ls-type:: annotation
+	  hl-page:: 7
+	  hl-color:: blue
+	  id:: 67c3c106-0527-47f2-baf3-15e7b4d42b63
+	  collapsed:: true
+		- ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: yellow
+		  id:: 67c3c27c-0022-40c1-87bc-d9359f6d0edf
+		  >But how does it happen that thinking is sometimes accompanied by action and sometimes not, sometimes by motion, and sometimes not? It looks as if almost the same thing happens as in the case of reasoning and making inferences about unchanging objects. But in that case the end is a speculative proposition . . . whereas here the conclusion which results from the two premises is an action. . . . I need covering; a cloak is a covering. I need a cloak. What I need, I have to make; I need a cloak. I have to make a cloak. And the conclusion, the “I have to make a cloak,” is an action.
+	- In the *Nicomachean Ethics* (Book III. 3, 1112b), Aristotle further elaborates on this topic, suggesting an algorithm:
+	  ls-type:: annotation
+	  hl-page:: 7
+	  hl-color:: blue
+	  id:: 67c3c2c3-19e9-4369-bb6e-dda74e78b840
+	  collapsed:: true
+		- hl-page:: 7
+		  ls-type:: annotation
+		  id:: 67c3c2d6-da7f-4993-86de-6a87416a6ccf
+		  hl-color:: yellow
+		  >We deliberate not about ends, but about means. For a doctor does not deliberate whether he shall heal, nor an orator whether he shall persuade, . . . They assume the end and consider how and by what means it is attained, and if it seems easily and best produced thereby; while if it is achieved by one means only they consider *how* it will be achieved by this and by what means *this* will be achieved, till they come to the ﬁrst cause, . . . and what is last in the order of analysis seems to be ﬁrst in the order of becoming. And if we come on an impossibility, we give up the search, e.g., if we need money and this cannot be got; but if a thing appears possible we try to do it.
+	- [[Aristotle]]’s algorithm was implemented 2300 years later by Newell and Simon in their **General Problem Solver** program.
+	  ls-type:: annotation
+	  hl-page:: 7
+	  hl-color:: green
+	  id:: 67c3c5f6-8ef5-4593-9b8e-b3f747729146
+		- We would now call it a greedy regression planning system(see Chapter 11). Methods based on logical planning to achieve deﬁnite goals dominated theﬁrst few decades of theoretical research in AI.
+		  ls-type:: annotation
+		  hl-page:: 7
+		  hl-color:: yellow
+		  id:: 67c3c61f-10bf-4dbc-82aa-179207267a88
