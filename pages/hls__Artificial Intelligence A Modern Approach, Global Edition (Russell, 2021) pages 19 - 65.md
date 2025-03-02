@@ -48,6 +48,7 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 	  hl-page:: 1
 	  hl-color:: red
 	  id:: 67c26296-96fc-4439-9734-993ae22073da
+	  collapsed:: true
 		- We have claimed that AI is interesting, but we have not said what it is.
 		  ls-type:: annotation
 		  hl-page:: 1
@@ -1109,87 +1110,451 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 			  hl-page:: 10
 			  hl-color:: yellow
 			  id:: 67c405a3-3123-4f8e-b76c-b0c1eea67475
-- 1.2.4 Neuroscience
-  ls-type:: annotation
-  hl-page:: 11
-  hl-color:: red
-  id:: 67c405b4-577c-4366-b309-e105b27e6d86
-	- **Neuroscience** is the study of the nervous system, particularly the brain.
+	- 1.2.4 Neuroscience
 	  ls-type:: annotation
 	  hl-page:: 11
-	  hl-color:: blue
-	  id:: 67c405d0-d9a0-4116-bf57-52b06eedaa69
+	  hl-color:: red
+	  id:: 67c405b4-577c-4366-b309-e105b27e6d86
 	  collapsed:: true
-		- Although the exact way in which the brain enables thought is one of the great mysteries of science, the fact that it does enable thought has been appreciated for thousands of years because of the evidence that strong blows to the head can lead to mental incapacitation.
+		- **Neuroscience** is the study of the nervous system, particularly the brain.
 		  ls-type:: annotation
 		  hl-page:: 11
-		  hl-color:: yellow
-		  id:: 67c405ee-56a8-4688-8e07-e177560d06a2
-		- It has also long been known that human brains are somehow different; in about 335 BCE Aristotle wrote, “Of all the animals, man has the largest brain in proportion to his size.”[^6]
+		  hl-color:: blue
+		  id:: 67c405d0-d9a0-4116-bf57-52b06eedaa69
+		  collapsed:: true
+			- Although the exact way in which the brain enables thought is one of the great mysteries of science, the fact that it does enable thought has been appreciated for thousands of years because of the evidence that strong blows to the head can lead to mental incapacitation.
+			  ls-type:: annotation
+			  hl-page:: 11
+			  hl-color:: yellow
+			  id:: 67c405ee-56a8-4688-8e07-e177560d06a2
+			- It has also long been known that human brains are somehow different; in about 335 BCE Aristotle wrote, “Of all the animals, man has the largest brain in proportion to his size.”[^6]
+			  hl-page:: 11
+			  ls-type:: annotation
+			  id:: 67c4060a-96e3-448b-842f-e70eec1b03d4
+			  hl-color:: yellow
+				- hl-page:: 11
+				  ls-type:: annotation
+				  id:: 67c4061d-0a3f-4172-a933-1252532db234
+				  hl-color:: purple
+				  [^6]:It has since been discovered that the tree shrew and some bird species exceed the human brain/body ratio.
+			- Still, it was not until the middle of the18th century that the brain was widely recognized as the seat of consciousness. Before then, candidate locations included the heart and the spleen.
+			  ls-type:: annotation
+			  hl-page:: 11
+			  hl-color:: yellow
+			  id:: 67c4063b-a24e-4b4e-96e7-a304311412e4
+		- [[Paul Broca]]’s (1824–1880) investigation of aphasia (speech deﬁcit) in brain-damaged patients in 1861 initiated the study of the brain’s functional organization by identifying a localized area in the left hemisphere—now called Broca’s area—that is responsible for speech production.[^7]
 		  hl-page:: 11
 		  ls-type:: annotation
-		  id:: 67c4060a-96e3-448b-842f-e70eec1b03d4
-		  hl-color:: yellow
+		  id:: 67c40659-3bd3-45e2-ab74-92cb6a998783
+		  hl-color:: blue
+		  collapsed:: true
 			- hl-page:: 11
 			  ls-type:: annotation
-			  id:: 67c4061d-0a3f-4172-a933-1252532db234
+			  id:: 67c40673-419a-422e-906b-4e64b2ced7ba
 			  hl-color:: purple
-			  [^6]:It has since been discovered that the tree shrew and some bird species exceed the human brain/body ratio.
-		- Still, it was not until the middle of the18th century that the brain was widely recognized as the seat of consciousness. Before then, candidate locations included the heart and the spleen.
-		  ls-type:: annotation
+			  [^7]:Many cite Alexander Hood (1824) as a possible prior source.
+		- By that time, it was known that the brain consisted largely of nerve cells, or **neurons**, but it was not until 1873 that [[Camillo Golgi]] (1843–1926) developed a staining technique allowing the observation of individual neurons (see **Figure 1.1**).
+		  hl-stamp:: 1740900025560
 		  hl-page:: 11
-		  hl-color:: yellow
-		  id:: 67c4063b-a24e-4b4e-96e7-a304311412e4
-	- [[Paul Broca]]’s (1824–1880) investigation of aphasia (speech deﬁcit) in brain-damaged patients in 1861 initiated the study of the brain’s functional organization by identifying a localized area in the left hemisphere—now called Broca’s area—that is responsible for speech production.[^7]
-	  hl-page:: 11
-	  ls-type:: annotation
-	  id:: 67c40659-3bd3-45e2-ab74-92cb6a998783
-	  hl-color:: blue
-	  collapsed:: true
-		- hl-page:: 11
 		  ls-type:: annotation
-		  id:: 67c40673-419a-422e-906b-4e64b2ced7ba
-		  hl-color:: purple
-		  [^7]:Many cite Alexander Hood (1824) as a possible prior source.
-	- By that time, it was known that the brain consisted largely of nerve cells, or **neurons**, but it was not until 1873 that [[Camillo Golgi]] (1843–1926) developed a staining technique allowing the observation of individual neurons (see **Figure 1.1**).
-	  hl-stamp:: 1740900025560
-	  hl-page:: 11
-	  ls-type:: annotation
-	  id:: 67c406b6-b014-48a5-907d-52dc85fa8345
-	  hl-color:: green
-	  collapsed:: true
-		- [:span]
+		  id:: 67c406b6-b014-48a5-907d-52dc85fa8345
+		  hl-color:: green
+		  collapsed:: true
+			- [:span]
+			  ls-type:: annotation
+			  hl-page:: 12
+			  hl-color:: yellow
+			  id:: 67c406e7-aa83-46d7-b897-9ce5cb770eb0
+			  hl-type:: area
+			  hl-stamp:: 1740900070394
+		- Brains and digital computers have somewhat different properties. **Figure 1.2** shows that computers have a cycle time that is a million times faster than a brain.
 		  ls-type:: annotation
 		  hl-page:: 12
-		  hl-color:: yellow
-		  id:: 67c406e7-aa83-46d7-b897-9ce5cb770eb0
-		  hl-type:: area
-		  hl-stamp:: 1740900070394
-	- Brains and digital computers have somewhat different properties. **Figure 1.2** shows that computers have a cycle time that is a million times faster than a brain.
+		  hl-color:: blue
+		  id:: 67c4071f-6618-49db-9329-dda117afea20
+		  collapsed:: true
+			- The brain makes up for that with far more storage and interconnection than even a high-end personal computer, although the largest supercomputers match the brain on some metrics.
+			  ls-type:: annotation
+			  hl-page:: 12
+			  hl-color:: yellow
+			  id:: 67c40756-bd74-47f1-913b-23053a20e96c
+			- [:span]
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c4073d-e8af-4963-ba45-6be4b8a473f5
+			  hl-type:: area
+			  hl-stamp:: 1740900156069
+		- Futurists make much of these numbers, pointing to an approaching singularity at which computers reach a su-Singularity perhuman level of performance (Vinge, 1993; Kurzweil, 2005; Doctorow and Stross, 2012), and then rapidly improve themselves even further. 
+		  ls-type:: annotation
+		  hl-page:: 12
+		  hl-color:: green
+		  id:: 67c40765-4797-45ff-b42d-f909d16ee53c
+		  collapsed:: true
+			- But the comparisons of raw numbers are not especially informative. Even with a computer of virtually unlimited capacity, we still require further conceptual breakthroughs in our understanding of intelligence (see Chapter 29).
+			  ls-type:: annotation
+			  hl-page:: 12
+			  hl-color:: yellow
+			  id:: 67c40784-76fe-4fc8-bb52-339858a6b304
+			- Crudely put, without the right theory, faster machines just give you the wrong answer faster
+			  ls-type:: annotation
+			  hl-page:: 12
+			  hl-color:: yellow
+			  id:: 67c4078e-81b8-4ecd-a023-c66d283b3237
+	- 1.2.5 Psychology
 	  ls-type:: annotation
 	  hl-page:: 12
-	  hl-color:: blue
-	  id:: 67c4071f-6618-49db-9329-dda117afea20
+	  hl-color:: red
+	  id:: 67c40797-ec2f-4a02-b561-ba18b3a0ae2b
 	  collapsed:: true
-		- The brain makes up for that with far more storage and interconnection than even a high-end personal computer, although the largest supercomputers match the brain on some metrics.
+		- The origins of scientiﬁc psychology are usually traced to the work of the German physicist [[Hermann von Helmholtz]] (1821–1894) and his student [[Wilhelm Wundt]] (1832–1920).
 		  ls-type:: annotation
 		  hl-page:: 12
-		  hl-color:: yellow
-		  id:: 67c40756-bd74-47f1-913b-23053a20e96c
-		- [:span]
+		  hl-color:: blue
+		  id:: 67c407c1-3eb2-4a90-97af-89b643ac34cb
+		  collapsed:: true
+			- Helmholtz applied the scientiﬁc method to the study of human vision, and his *Handbook of Physiological Optics* has been described as “the single most important treatise on the physics and physiology of human vision” (Nalwa, 1993, p.15).
+			  ls-type:: annotation
+			  hl-page:: 12
+			  hl-color:: yellow
+			  id:: 67c407e5-5db5-4201-a02d-f3241fb907f3
+			- In 1879, Wundt opened the ﬁrst laboratory of experimental psychology, at the University of Leipzig.
+			  ls-type:: annotation
+			  hl-page:: 12
+			  hl-color:: yellow
+			  id:: 67c40803-bb97-497e-88b1-25ef7434827e
+			- Wundt insisted on carefully controlled experiments in which his workers would perform a perceptual or associative task while introspecting on their thought processes.
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c40819-d7e8-44f3-9a18-312b76f5318b
+			- The careful controls went a long way toward making psychology a science, but the subjective nature of the data made it unlikely that experimenters would ever disconﬁrm their own theories.
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c4082f-674a-49b0-86d6-39f3ed316996
+		- Biologists studying animal behavior, on the other hand, lacked introspective data and developed an objective methodology, as described by [[H. S. Jennings]] (1906) in his inﬂuential work *Behavior of the Lower Organisms*.
+		  hl-page:: 13
+		  ls-type:: annotation
+		  id:: 67c40856-b14d-4245-8c73-165d3649f2fa
+		  hl-color:: blue
+		- Applying this viewpoint to humans, the **behaviorism** movement, led by [[John Watson]] (1878–1958), rejected any theory involving mental processes on the grounds that introspection could not provide reliable evidence.
+		  hl-page:: 13
+		  ls-type:: annotation
+		  id:: 67c40878-6fd9-46bb-90b2-5a0beb3df77a
+		  hl-color:: green
+		  collapsed:: true
+			- Behaviorists insisted on studying only objective measures of the percepts (or *stimulus*) given to an animal and its resulting actions (or *response*).
+			  hl-page:: 13
+			  ls-type:: annotation
+			  id:: 67c408a2-5914-428e-aeb1-0d094fb9d787
+			  hl-color:: yellow
+			- Behaviorism discovered a lot about rats and pigeons but had less success at understanding humans.
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c408b8-b294-4281-8b3d-4a4a118a60a9
+		- **Cognitive psychology**, which views the brain as an information-processing device, can be traced back at least to the works of [[William James]] (1842–1910).
+		  hl-page:: 13
+		  ls-type:: annotation
+		  id:: 67c408cf-e02c-4e7d-b85e-19159f636363
+		  hl-color:: green
+		  collapsed:: true
+			- Helmholtz also insisted that perception involved a form of unconscious logical inference.
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c408fd-2c93-45dd-bd78-db69881a976a
+		- The cognitive viewpoint was largely eclipsed by behaviorism in the United States, but at Cambridge’s Applied Psychology Unit, directed by [[Frederic Bartlett]] (1886–1969), cognitive modeling was able to ﬂourish.
 		  ls-type:: annotation
 		  hl-page:: 13
-		  hl-color:: yellow
-		  id:: 67c4073d-e8af-4963-ba45-6be4b8a473f5
-		  hl-type:: area
-		  hl-stamp:: 1740900156069
-- Futurists make much of these numbers, pointing to an approaching singularity at which computers reach a su-Singularity perhuman level of performance (Vinge, 1993; Kurzweil, 2005; Doctorow and Stross, 2012), and then rapidly improve themselves even further. 
-  ls-type:: annotation
-  hl-page:: 12
-  hl-color:: green
-  id:: 67c40765-4797-45ff-b42d-f909d16ee53c
-	- But the comparisons of raw numbers are not especially informative. Even with a computer of virtually unlimited capacity, we still require further conceptual breakthroughs in our understanding of intelligence (see Chapter 29).
+		  hl-color:: blue
+		  id:: 67c4090f-9795-456d-aa2e-74b5384a6554
+		  collapsed:: true
+			- *The Nature of Explanation*, by Bartlett’s student and successor [[Kenneth Craik]] (1943), forcefully reestablished the legitimacy of such “mental” terms as beliefs and goals, arguing that they are just as scientiﬁc as, say, using pressure and temperature to talk about gases, despite gasses being made of molecules that have neither.
+			  hl-page:: 13
+			  ls-type:: annotation
+			  id:: 67c40932-4ab5-4cc2-9826-b1256086277e
+			  hl-color:: yellow
+		- Craik speciﬁed the three key steps of a knowledge-based agent
+		  ls-type:: annotation
+		  hl-page:: 13
+		  hl-color:: blue
+		  id:: 67c40969-7b64-477d-89a4-2646af1f6989
+		  collapsed:: true
+			- (1) the stimulus must be translated into an internal representation,
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c4096e-3549-4e02-8c0b-46a352b8ddce
+			- (2) the representation is manipulated by cognitive processes to derive new internal representations, and
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c40977-4bfb-4dd6-b2f8-1dd081ecff8d
+			- (3) these are in turn retranslated back into action. He clearly explained why this was a good design for an agent:
+			  ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c40980-7102-42df-8956-c4d56f878234
+			- ls-type:: annotation
+			  hl-page:: 13
+			  hl-color:: yellow
+			  id:: 67c409b2-fd80-416f-938b-3c6bc8fa33cf
+			  >If the organism carries a “small-scale model” of external reality and of its own possible actions within its head, it is able to try out various alternatives, conclude which is the best of them, react to future situations before they arise, utilize the knowledge of past events in dealing with the present and future, and in every way to react in a much fuller, safer, and more competent manner to the emergencies which face it. (Craik, 1943)
+		- After Craik’s death in a bicycle accident in 1945, his work was continued by [[Donald Broadbent]], whose book *Perception and Communication* (1958) was one of the ﬁrst works to model psychological phenomena as information processing.
+		  hl-page:: 14
+		  ls-type:: annotation
+		  id:: 67c40b2a-9884-49ea-8f75-271b6bcf5093
+		  hl-color:: blue
+		- Meanwhile, in the United States, the development of computer modeling led to the creation of the ﬁeld of **cognitive science**.
+		  ls-type:: annotation
+		  hl-page:: 14
+		  hl-color:: green
+		  id:: 67c40b53-e292-4ae8-9025-137e0a92cffa
+		  collapsed:: true
+			- Theﬁeld can be said to have started at a workshop in September 1956 at MIT—just two months after the conference at which AI itself was “born.”
+			  ls-type:: annotation
+			  hl-page:: 14
+			  hl-color:: yellow
+			  id:: 67c40b61-c28e-4120-b92c-3058730d511d
+		- At the workshop, George Miller presented *The Magic Number Seven*, Noam Chomsky presented *Three Models of Language*, and Allen Newell and Herbert Simon presented *The Logic Theory Machine*.
+		  hl-page:: 14
+		  ls-type:: annotation
+		  id:: 67c40bce-8b95-400c-b55a-dae0844190f3
+		  hl-color:: blue
+		  collapsed:: true
+			- These three inﬂuential papers showed how computer models could be used to address the psychology of memory, language, and logical thinking, respectively.
+			  ls-type:: annotation
+			  hl-page:: 14
+			  hl-color:: yellow
+			  id:: 67c40c05-750e-4904-a18e-34270cd4eafe
+			- It is now a common (although far from universal) view among psychologists that “a cognitive theory should be like a computer program” (Anderson, 1980); that is, it should describe the operation of a cognitive function in terms of the processing of information.
+			  ls-type:: annotation
+			  hl-page:: 14
+			  hl-color:: yellow
+			  id:: 67c40c26-762c-4d73-8d74-4b85ce5591d0
+		- For purposes of this review, we will count the ﬁeld of **human–computer interaction** (HCI) under psychology.
+		  hl-page:: 14
+		  ls-type:: annotation
+		  id:: 67c40c37-112e-4a83-8735-ff35da9caa9d
+		  hl-color:: green
+		- [[Doug Engelbart]], one of the pioneers of HCI, championed the idea of **intelligence augmentation**—IA rather than AI.
+		  hl-page:: 14
+		  ls-type:: annotation
+		  id:: 67c40c4d-6632-4a89-b0dd-1864b08b7c0d
+		  hl-color:: green
+		  collapsed:: true
+			- He believed that computers should augment human abilities rather than automate away human tasks.
+			  hl-page:: 14
+			  ls-type:: annotation
+			  id:: 67c40c8c-ab4b-4e64-a941-cbdbbe25fdbc
+			  hl-color:: yellow
+			- In 1968, Engelbart’s “mother of all demos” showed off for the ﬁrst time the computer mouse, a windowing system, hypertext, and video conferencing—all in an effort to demonstrate what human knowledge workers could collectively accomplish with some intelligence augmentation.
+			  ls-type:: annotation
+			  hl-page:: 14
+			  hl-color:: yellow
+			  id:: 67c40cae-0115-424f-a615-2828572e95c6
+		- Today we are more likely to see IA and AI as two sides of the same coin, with the former emphasizing human control and the latter emphasizing intelligent behavior on the part of the machine. Both are needed for machines to be useful to humans.
+		  ls-type:: annotation
+		  hl-page:: 14
+		  hl-color:: blue
+		  id:: 67c40d31-6f02-4c3d-ade7-558024d5a57d
+	- 1.2.6 Computer engineering
 	  ls-type:: annotation
-	  hl-page:: 12
-	  hl-color:: yellow
-	  id:: 67c40784-76fe-4fc8-bb52-339858a6b304
+	  hl-page:: 14
+	  hl-color:: red
+	  id:: 67c40d54-a4d4-4053-983d-087c00a19ec2
+	  collapsed:: true
+		- The modern digital electronic computer was invented independently and almost simultaneously by scientists in three countries embattled in World War II.
+		  ls-type:: annotation
+		  hl-page:: 14
+		  hl-color:: blue
+		  id:: 67c40de9-188b-4c21-a192-5694a363e916
+		  collapsed:: true
+			- The ﬁrst *operational* computer was the electromechanical Heath Robinson,[^9] built in 1943 by Alan Turing’s team for a single purpose: deciphering German messages.
+			  hl-page:: 14
+			  ls-type:: annotation
+			  id:: 67c40e0a-ee72-4345-b4d3-f8aab19123e4
+			  hl-color:: yellow
+				- hl-page:: 14
+				  ls-type:: annotation
+				  id:: 67c40eb9-217c-4b69-91c8-e8394a7c9db7
+				  hl-color:: purple
+				  [^9]:A complex machine named after a British cartoonist who depicted whimsical and absurdly complicated contraptions for everyday tasks such as buttering toast.
+			- In 1943, the same group developed the Colossus, a powerful general-purpose machine based on vacuum tubes.[^10]
+			  hl-page:: 14
+			  ls-type:: annotation
+			  id:: 67c40ea7-2398-4777-a14e-7f1c442e97da
+			  hl-color:: yellow
+				- hl-page:: 14
+				  ls-type:: annotation
+				  id:: 67c40ed2-8189-4166-9ed7-8bdeda5c76c9
+				  hl-color:: purple
+				  [^10]:In the postwar period, Turing wanted to use these computers for AI research—for example, he created an outline of the ﬁrst chess program (Turing et al., 1953)—but the British government blocked this research.
+		- The ﬁrst operational *programmable* computer was the Z-3, the invention of [[Konrad Zuse]] in Germany in1941.
+		  hl-page:: 14
+		  ls-type:: annotation
+		  id:: 67c40eeb-07fd-460a-9530-c249578caaa1
+		  hl-color:: blue
+		  collapsed:: true
+			- Zuse also invented ﬂoating-point numbers and the ﬁrst high-level programming language, Plankalkül.
+			  hl-page:: 14
+			  ls-type:: annotation
+			  id:: 67c40f24-52a4-4621-8169-a812505a9080
+			  hl-color:: yellow
+		- The ﬁrst *electronic* computer, the ABC, was assembled by [[John Atanasoff]] and his student [[Clifford Berry]] between 1940 and 1942 at Iowa State University
+		  hl-page:: 14
+		  ls-type:: annotation
+		  id:: 67c40f70-a6ab-4982-8132-a790a86f000c
+		  hl-color:: blue
+		  hl-stamp:: 1740902307036
+		  collapsed:: true
+			- Atanasoff’s research received little support or recognition; it was the ENIAC, developed as part of a secret military project at the University of Pennsylvania by a team including John Mauchly and J. Presper Eckert, that proved to be the most inﬂuential forerunner of modern computers.
+			  ls-type:: annotation
+			  hl-page:: 14
+			  hl-color:: yellow
+			  id:: 67c40f9f-e3e7-44e3-8275-dec1c4bffe06
+		- Since that time, each generation of computer hardware has brought an increase in speed and capacity and a decrease in price—a trend captured in **Moore’s law**.
+		  ls-type:: annotation
+		  hl-page:: 14
+		  hl-color:: green
+		  id:: 67c40fc7-4328-4140-b108-20c159d09739
+		  collapsed:: true
+			- Performance doubled every 18 months or so until around 2005, when power dissipation problems led manufacturers to start multiplying the number of CPU cores rather than the clock speed.
+			  hl-page:: 14
+			  ls-type:: annotation
+			  id:: 67c40fda-d2d1-4c6c-a815-10fc92ecf380
+			  hl-color:: yellow
+			- Current expectations are that future increases in functionality will come from massive parallelism—a curious convergence with the properties of the brain. 
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c4100c-0344-4821-86e1-1189bf497468
+			- We also see new hardware designs based on the idea that in dealing with an uncertain world, we don’t need 64 bits of precision in our numbers; just 16 bits (as in the bfloat16 format) or even 8 bits will be enough, and will enable faster processing.
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c41069-3321-4a79-992e-3172024759ec
+		- We are just beginning to see hardware tuned for AI applications, such as the graphics processing unit (GPU), tensor processing unit (TPU), and wafer scale engine (WSE).
+		  ls-type:: annotation
+		  hl-page:: 15
+		  hl-color:: blue
+		  id:: 67c41089-2ca8-414d-b3c1-f044f132e095
+		  collapsed:: true
+			- From the 1960s to about 2012, the amount of computing power used to train top machine learning applications followed Moore’s law.
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c410e9-8ea3-400e-83ec-336c7c64a252
+			- Beginning in 2012, things changed: from 2012 to2018 there was a 300,000-fold increase, which works out to a doubling every 100 days or so (Amodei and Hernandez, 2018).
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c41109-831a-4323-8b22-3129672164f1
+			- A machine learning model that took a full day to train in 2014 takes only two minutes in 2018 (Ying et al., 2018).
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c4112d-f434-47ca-b043-28c0ebb3123d
+		- Although it is not yet practical, **quantum computing** holds out the promise of far greater accelerations for some important subclasses of AI algorithms.
+		  hl-page:: 15
+		  ls-type:: annotation
+		  id:: 67c41137-0d95-4356-8a96-fd614f44447e
+		  hl-color:: green
+		- Of course, there were calculating devices before the electronic computer. The earliest automated machines, dating from the 17th century, were discussed on page 24.
+		  ls-type:: annotation
+		  hl-page:: 15
+		  hl-color:: blue
+		  id:: 67c41179-0017-4ebd-9511-ee80634770fe
+		- The ﬁrst programmable machine was a loom, devised in 1805 by [[Joseph Marie Jacquard]] (1752–1834), that used punched cards to store instructions for the pattern to be woven.
+		  ls-type:: annotation
+		  hl-page:: 15
+		  hl-color:: blue
+		  id:: 67c4118e-37d0-4b63-95dc-7bf419753012
+		- In the mid-19th century, [[Charles Babbage]] (1792–1871) designed two computing machines, neither of which he completed.
+		  ls-type:: annotation
+		  hl-page:: 15
+		  hl-color:: blue
+		  id:: 67c411b4-c33d-4ac1-a709-5fca71ed4bac
+		  collapsed:: true
+			- The Difference Engine was intended to compute mathematical tables for engineering and scientiﬁc projects. It was ﬁnally built and shown to work in 1991 (Swade, 2000).
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c411f8-7c4e-4012-a8f0-a38720fa3f83
+			- Babbage’s Analytical Engine was far more ambitious: it included addressable memory, stored programs based on Jacquard’s punched cards, and conditional jumps. It was the ﬁrst machine capable of universal computation.
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c41208-dddd-4154-b263-f10a15ef09bf
+		- Babbage’s colleague [[Ada Lovelace]], daughter of the poet [[Lord Byron]], understood its potential, describing it as “a thinking or . . . a reasoning machine,” one capable of reasoning about “all subjects in the universe” (Lovelace, 1843).
+		  ls-type:: annotation
+		  hl-page:: 15
+		  hl-color:: blue
+		  id:: 67c41239-6867-4c39-8c0d-fb4e2ee5b865
+		  collapsed:: true
+			- She also anticipated AI’s hype cycles, writing, “It is desirable to guard against the possibility of exaggerated ideas that might arise as to the powers of the Analytical Engine.” Unfortunately, Babbage’s machines and Lovelace’s ideas were largely forgotten.
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c41262-d870-405a-aec1-5c0985bf657c
+		- AI also owes a debt to the software side of computer science, which has supplied the operating systems, programming languages, and tools needed to write modern programs (and papers about them)
+		  ls-type:: annotation
+		  hl-page:: 15
+		  hl-color:: blue
+		  id:: 67c412d2-055b-418f-a11f-e8e36c8ab958
+		  collapsed:: true
+			- But this is one area where the debt has been repaid: work in AI has pioneered many ideas that have made their way back to mainstream computer science, including time sharing, interactive interpreters, personal computers with windows and mice, rapid development environments, the linked-list data type, automatic storage management, and key concepts of symbolic, functional, declarative, and object-oriented programming.
+			  ls-type:: annotation
+			  hl-page:: 15
+			  hl-color:: yellow
+			  id:: 67c412f4-389a-4c00-8eba-29d8e9681411
+- 1.2.7 Control theory and cybernetics
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: red
+  id:: 67c41313-10e0-48d1-9240-7d8bfc5e485a
+	- [[Ktesibios of Alexandria]] (c. 250 BCE) built the ﬁrst self-controlling machine: a water clock with a regulator that maintained a constant ﬂow rate.
+	  ls-type:: annotation
+	  hl-page:: 15
+	  hl-color:: blue
+	  id:: 67c41341-7e39-4108-8e98-ebcdbff85dd1
+	  collapsed:: true
+		- This invention changed the deﬁnition of what an artifact could do. Previously, only living things could modify their behavior in response to changes in the environment.
+		  ls-type:: annotation
+		  hl-page:: 15
+		  hl-color:: yellow
+		  id:: 67c41415-ef6b-411e-9be0-b7bd5ce3215a
+	- Other examples of self-regulating feedback control systems include the steam engine governor, created by [[James Watt]] (1736–1819), and the thermostat, invented by [[Cornelis Drebbel]] (1572–1633), who also invented the submarine.
+	  hl-page:: 15
+	  ls-type:: annotation
+	  id:: 67c4142d-2bf2-4d57-9d4f-546d8cdbfabb
+	  hl-color:: blue
+	- [[James Clerk Maxwell]] (1868) initiated the mathematical theory of control systems.
+	  ls-type:: annotation
+	  hl-page:: 16
+	  hl-color:: blue
+	  id:: 67c4145f-13e6-4595-9fc3-6c12dad77487
+	  hl-stamp:: 1740903595765
+	- A central ﬁgure in the post-war development of **control theory** was [[Norbert Wiener]] (1894–1964).
+	  hl-page:: 16
+	  ls-type:: annotation
+	  id:: 67c41489-45a9-43c3-ac19-358ff55a73a1
+	  hl-color:: green
+	  hl-stamp:: 1740903768804
+	- Wiener was a brilliant mathematician who worked with [[Bertrand Russell,]] among others, before developing an interest in biological and mechanical control systems and their connection to cognition.
+	  ls-type:: annotation
+	  hl-page:: 16
+	  hl-color:: blue
+	  id:: 67c414c1-9ebd-4053-a013-97113d14b433
+- Like [[Kenneth Craik]] (who also used control systems as psychological models), [[Norbert Wiener]] and his colleagues [[Arturo Rosenblueth]] and [[Julian Bigelow]] challenged the behaviorist orthodoxy (Rosenblueth et al., 1943).
+  hl-page:: 16
+  ls-type:: annotation
+  id:: 67c41538-7c22-4551-8c4a-315c5d165be4
+  hl-color:: blue
+- They viewed purposive behavior as arising from a regulatory mechanism trying to minimize “error”—the difference between current state and goal state
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 67c41599-4427-465d-a0c1-fb89940480bf
