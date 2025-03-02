@@ -2364,8 +2364,93 @@ file-path:: ../assets/Artificial Intelligence A Modern Approach, Global Edition 
 			  hl-page:: 24
 			  hl-color:: yellow
 			  id:: 67c434b5-a9e5-4298-a198-94ecc6001553
-- 1.3.5 The return of neural networks (1986–present)
+	- 1.3.5 The return of neural networks (1986–present)
+	  ls-type:: annotation
+	  hl-page:: 24
+	  hl-color:: red
+	  id:: 67c434cd-236e-4a74-809d-258dd8e13a42
+	  collapsed:: true
+		- In the mid-1980s at least four different groups reinvented the **back-propagation** learning algorithm ﬁrst developed in the early 1960s
+		  ls-type:: annotation
+		  hl-page:: 24
+		  hl-color:: green
+		  id:: 67c44d55-ce5a-4254-b638-0d646bea6ad9
+		  collapsed:: true
+			- The algorithm was applied to many learning problems in computer science and psychology, and the widespread dissemination of the results in the collection *Parallel Distributed Processing* (Rumelhart and McClelland, 1986) caused great excitement.
+			  ls-type:: annotation
+			  hl-page:: 24
+			  hl-color:: yellow
+			  id:: 67c44d6d-2f4c-4c65-a41e-383ef50a3433
+		- These so-called **connectionist** models were seen by some as direct competitors both to the symbolic models promoted by [[Allen Newell]] and [[Herbert Simon]] and to the logicist approach of [[John McCarthy]] and others.
+		  hl-stamp:: 1740918164497
+		  hl-page:: 24
+		  ls-type:: annotation
+		  id:: 67c44d91-6339-4e7b-99e5-2b075ea7308a
+		  hl-color:: green
+			- It might seem obvious that at some level humans manipulate symbols—in fact, the anthropologist [[Terrence Deacon]]’s book *The Symbolic Species* (1997) suggests that this is the *deﬁning characteristic* of humans.
+			  hl-page:: 24
+			  ls-type:: annotation
+			  id:: 67c45050-2c4c-4272-a8ab-57986b47142d
+			  hl-color:: yellow
+			- Against this, [[Geoff Hinton]], a leading ﬁgure in the resurgence of neural networks in the 1980s and 2010s, has described symbols as the“luminiferous aether of AI”—a reference to the non-existent medium through which many19th-century physicists believed that electromagnetic waves propagated.
+			  ls-type:: annotation
+			  hl-page:: 24
+			  hl-color:: yellow
+			  id:: 67c4509d-5796-42b6-b9cb-452a34bc119f
+			- Certainly, many concepts that we name in language fail, on closer inspection, to have the kind of logically deﬁned necessary and sufﬁcient conditions that early AI researchers hoped to capture in axiomatic form.
+			  ls-type:: annotation
+			  hl-page:: 24
+			  hl-color:: yellow
+			  id:: 67c450f4-d504-49d2-8e41-643911dbcfe9
+			- It may be that connectionist models form internal concepts in a more ﬂuid and imprecise way that is better suited to the messiness of the real world.
+			  ls-type:: annotation
+			  hl-page:: 24
+			  hl-color:: yellow
+			  id:: 67c4511f-f5ba-4224-b33b-7716b3ce437b
+			- They also have the capability to learn from examples—they can compare their predicted output value to the true value on a problem and modify their parameters to decrease the difference, making them more likely to perform well on future examples.
+			  ls-type:: annotation
+			  hl-page:: 24
+			  hl-color:: yellow
+			  id:: 67c451bd-39f2-46e9-93cc-694f3d5b01cd
+- 1.3.6 Probabilistic reasoning and machine learning (1987–present)
   ls-type:: annotation
   hl-page:: 24
   hl-color:: red
-  id:: 67c434cd-236e-4a74-809d-258dd8e13a42
+  id:: 67c451d4-419f-4155-b9fd-b6868a43f437
+	- The brittleness of expert systems led to a new, more scientiﬁc approach incorporating probability rather than Boolean logic, machine learning rather than hand-coding, and experimental results rather than philosophical claims.[^14]
+	  hl-page:: 24
+	  ls-type:: annotation
+	  id:: 67c45317-809b-445b-9861-a5873d311555
+	  hl-color:: blue
+	  collapsed:: true
+		- It became more common to build on existing theories than to propose brand-new ones, to base claims on rigorous theorems or solid experimental methodology (Cohen, 1995) rather than on intuition, and to show relevance to real-world applications rather than toy examples.
+		  ls-type:: annotation
+		  hl-page:: 24
+		  hl-color:: yellow
+		  id:: 67c45372-38e0-4497-be7a-2ff356dec8f2
+		- hl-page:: 24
+		  ls-type:: annotation
+		  id:: 67c45334-4951-4c4e-93dd-5acf9a99f3e0
+		  hl-color:: purple
+		  [^14]:Some have characterized this change as a victory of the **neats**—those who think that AI theories should be grounded in mathematical rigor—over the **scrufﬁes**—those who would rather try out lots of ideas, write some programs, and then assess what seems to be working. Both approaches are important. A shift toward neatness implies that the ﬁeld has reached a level of stability and maturity. The present emphasis on deep learning may represent a resurgence of the scrufﬁes.
+	- Shared benchmark problem sets became the norm for demonstrating progress, including the UC Irvine repository for machine learning data sets, the International Planning Competition for planning algorithms, the LibriSpeech corpus for speech recognition, the MNIST data set for handwritten digit recognition, ImageNet and COCO for image object recognition, SQUAD for natural language question answering, the WMT competition for machine translation, and the International SAT Competitions for Boolean satisﬁability solvers.
+	  ls-type:: annotation
+	  hl-page:: 25
+	  hl-color:: blue
+	  id:: 67c453c6-c877-4aac-9ef9-cd7b68870158
+	- AI was founded in part as a rebellion against the limitations of existing ﬁelds like control theory and statistics, but in this period it embraced the positive results of those ﬁelds. As [[David McAllester]] (1998) put it:
+	  ls-type:: annotation
+	  hl-page:: 25
+	  hl-color:: blue
+	  id:: 67c4545a-8ff5-4140-aa0c-a2b1fd7fada6
+	  collapsed:: true
+		- ls-type:: annotation
+		  hl-page:: 25
+		  hl-color:: yellow
+		  id:: 67c4547b-dd53-47e6-905b-a824d42673ce
+		  >In the early period of AI it seemed plausible that new forms of symbolic computation, e.g., frames and semantic networks, made much of classical theory obsolete. This led to a form of isolationism in which AI became largely separated from the rest of computer science. This isolationism is currently being abandoned. There is a recognition that machine learning should not be isolated from information theory, that uncertain reasoning should not be isolated from stochastic modeling, that search should not be isolated from classical optimization and control, and that automated reasoning should not be isolated from formal methods and static analysis.
+- The ﬁeld of speech recognition illustrates the pattern. In the 1970s, a wide variety of different architectures and approaches were tried
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: blue
+  id:: 67c454e3-ef45-47e6-856f-0e24c707d085
